@@ -1,10 +1,10 @@
 ::
 ::　～ VolumeShadowCopy スナップショット パス取得スクリプト ～
 :: －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
-::　　VSSDetector 日本語版 Ver.1.0
+::　　VSSDetector 日本語版 Ver.1.0.0
 :: －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
 ::　　システムの復元ポイントなどで作成されるシャドーコピーの正確なパスを取得する。
-::　　取得したパスを 7-zip などで圧縮元ソースに指定する事で、ファイルの変更が起らない
+::　　取得したパスを 7-Zip などで圧縮元ソースに指定する事で、ファイルの変更が起らない
 ::　　ソースフォルダ、ソースドライブを指定可能になる。
 ::
 ::   Copyright by Chall-Link（シャルリンク）
@@ -167,7 +167,7 @@ echo         "ドライブ全体のバックアップには「ドライブ全体指定時パス表記」を使用
 echo         "特定フォルダには「フォルダ指定時パス表記」を使用し、(フォルダ名)を実際のフォルダ名に置き換え" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo         "" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo         "[重大な警告]" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "7-zip実行中に新しい復元ポイントを作成しないでください！" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "7-Zip実行中に新しい復元ポイントを作成しないでください！" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo         "スナップショットが無効になり、アーカイブが破損する可能性があります。" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo         "" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo         "[重要な注意事項]" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
@@ -221,7 +221,7 @@ echo ドライブ全体のバックアップには「ドライブ全体指定時パス表記」を使用
 echo 特定フォルダには「フォルダ指定時パス表記」を使用し、(フォルダ名)を実際のフォルダ名に置き換え
 echo.
 echo [重大な警告]
-echo 7-zip実行中に新しい復元ポイントを作成しないでください！
+echo 7-Zip実行中に新しい復元ポイントを作成しないでください！
 echo スナップショットが無効になり、アーカイブが破損する可能性があります。
 echo.
 echo [重要な注意事項]
@@ -237,5 +237,8 @@ echo.
 echo ===============================================
 echo スクリプトの実行が完了しました。
 echo 任意のキーを押して終了...
+echo.
+echo    If Moji-Bake: Check If bat file is S-JIS.
+echo.
 pause >nul
 popd
