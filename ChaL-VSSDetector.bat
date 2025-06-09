@@ -241,4 +241,4 @@ echo スクリプトの実行が完了しました。
 echo 任意のキーを押して終了...
 echo.
 pause >nul
-popd
+popdREM temporary line 
