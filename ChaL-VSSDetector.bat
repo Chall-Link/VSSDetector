@@ -234,11 +234,11 @@ echo - 最新のスナップショットが最初に表示されます
 echo.
 echo [情報] スナップショット情報は以下に保存されました: ChaL-RESULT-VSSDetector.txt
 echo.
+echo    If Moji-Bake: Check If bat file is S-JIS.
+echo.
 echo ===============================================
 echo スクリプトの実行が完了しました。
 echo 任意のキーを押して終了...
-echo.
-echo    If Moji-Bake: Check If bat file is S-JIS.
 echo.
 pause >nul
 popd
