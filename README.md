@@ -187,14 +187,16 @@ Chall-Link「VSSDetector」は、様々な分野に応用可能です
 
 転載・配布は自由ですが、出典として『Chall-Link「VSSDetector」』を明記してください。
 
-ご意見・ご感想はGitHubリポジトリのIssues（https://github.com/Chall-Link/VSSDetector）にてお願いします。
+ご意見・ご感想はGitHubリポジトリの [Issues](https://github.com/Chall-Link/VSSDetector/issues) にてお願いします。  
+
 ただし個別サポートや返信は行っておりません。
 
 &nbsp;
 
 ## 【 タグ 】
-VSS, ボリューム シャドウ コピー, ウィンドウズ, スナップショット, 7zip, 革命的発見, 隠れた機能, 世界初, 技術的ブレークスルー
-[Tags: VSS, volume-shadow-copy, windows, snapshot, 7zip, revolutionary-discovery, hidden-feature, world-first, breakthrough]
+VSS, スナップショット, 復元ポイント, 7zip, PowerShell, vssadmin, システム管理, windows-tools, 大容量, バックアップ  
+
+[Tags: VSS, snapshot, restore-point, 7zip, PowerShell, vssadmin, system-administration, windows-tools, large-data, backup]
 
 &nbsp;
 
