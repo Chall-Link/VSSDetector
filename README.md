@@ -1,12 +1,12 @@
  =================================================
 
-# VSSDetector - VSS スナップショット 汎用パス取得ツール
+# Chall-Link「VSSDetector」 - VSS スナップショット 汎用パス取得ツール
 
-# 　　Chall-Link VSSDetector 日本語版 Ver.1.0.0
+## 　　Chall-Link VSSDetector 日本語版 Ver.1.0.0
 
-# 　　Windowsの隠れた機能を誰もが利用可能に
+## 　　Windowsの隠れた機能を誰もが利用可能に
 
-# 　　世界初のVSS活用スクリプト・ユーティリティ
+## 　　世界初のVSS活用スクリプト・ユーティリティ
 
 **【著作権者】**	Chall-Link（シャルリンク）
 **【種別】**	フリーソフトウェア
@@ -19,7 +19,7 @@
 初回利用時にWindows Defender SmartScreenが警告を表示する場合があります。これは署名されていない新しいソフトウェアに対する標準的な警告です。
 
 **安全性について：**
-- ESETウイルススキャン通過済み
+- ESETウイルススキャン（ローカル確認済み）
 - 完全オープンソース（内容確認可能）
 
 **実行方法：** 警告画面で「詳細情報」→「実行」をクリック
@@ -29,10 +29,9 @@
 ## ■ 動作環境
 
 - スクリプトのテキストファイル属性：改行コード CRLF、文字コード Shift-JIS
-（GitHub Release掲載の [Source code (zip)](https://github.com/Chall-Link/VSSDetector/archive/refs/tags/Ver.1.0.0.zip) は同ファイル属性に設定済）
-- Windows 10 Pro 64bit（動作確認済み）、理論上はWindows 7 SP1以上で動作可能
-- PowerShell 2.0以上（Windows標準搭載）、管理者権限での実行が必要
-- VSSサービスが有効である必要があります
+（[GitHub Release](https://github.com/Chall-Link/VSSDetector/releases)掲載の「Source code (zip)」は同ファイル属性に設定済）
+- Windows 10 Pro 64bit（動作確認済み）、理論上はWindows 7 SP1以上で動作可能（未確認のため自己責任でテスト推奨）
+- 必要条件: PowerShell 2.0以上（Windows標準搭載）、管理者権限、VSSサービスが有効
 - 併用推奨ソフト：Chall-Link「PreFAS」(VSSDetector公開直後に公開予定)、7-Zip（LGPLライセンス）（https://www.7-zip.org/ から入手）
 
 &nbsp;
@@ -41,7 +40,10 @@
 
 Chall-Link「VSSDetector」を使えば、Windowsのスナップショット＝「過去の任意の時点での静的な（変化しない）ドライブ／フォルダ／ファイル」に7-zipなどのソフトウェアから誰でも簡単に直接アクセスできるようになります。
 従来、この機能は主にWindowsおよび市販ソフト経由などでしか使えませんでした。  
-**＊＊このスクリプトはVSS機能を誰でも使えるように機能を解放します！＊＊**
+
+&nbsp;
+
+**＊＊このスクリプトはVSS機能を誰でも使えるように解放することを可能にします！＊＊**
 
 &nbsp;
 
