@@ -28,10 +28,12 @@
 
 ## ■ 動作環境
 
+- スクリプトのテキストファイル属性：改行コード CRLF、文字コード Shift-JIS
+（GitHub Release掲載の [Source code (zip)](https://github.com/Chall-Link/VSSDetector/archive/refs/tags/Ver.1.0.0.zip) はこの設定になっています）
 - Windows 10 Pro 64bit（動作確認済み）、理論上はWindows 7 SP1以上で動作可能
 - PowerShell 2.0以上（Windows標準搭載）、管理者権限での実行が必要
 - VSSサービスが有効である必要があります
-- 併用推奨ソフト：Chall-Link「PreFAS」、7-Zip（LGPLライセンス）（https://www.7-zip.org/ から入手）
+- 併用推奨ソフト：Chall-Link「PreFAS」(VSSDetector公開直後に公開予定)、7-Zip（LGPLライセンス）（https://www.7-zip.org/ から入手）
 
 &nbsp;
 
