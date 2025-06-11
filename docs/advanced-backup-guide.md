@@ -101,22 +101,21 @@ Chall-Link「VSSDetector」は、Windowsの隠れた機能 VSS スナップシ�
 #### ３．１．ステップ1：VSSDetectorの実行  
 
 &emsp;**3.1.1 管理者権限での確実な実行**  
-&emsp;&emsp;ChaL-VSSDetector.batを右クリック → 「管理者として実行」  
+&emsp;&emsp;ChaL-VSSDetector.batを右クリックし、「管理者として実行」  
 
 &emsp;**3.1.2 高度な自動解析処理の実行**  
-&emsp;&emsp;スクリプトがシステム内のすべてのスナップショット情報を自動解析  
+&emsp;&emsp;スクリプトがシステム内のすべてのスナップショット情報を自動解析します  
 
 &emsp;**3.1.3 実行完了の確認**  
-&emsp;&emsp;「スクリプトの実行が完了しました」のメッセージ確認後、画面を閉じる  
-
-> ※画面表示と同一の詳細結果が外部ファイルとしても出力されています  
+&emsp;&emsp;「スクリプトの実行が完了しました」のメッセージ確認したら、画面を閉じても大丈夫です  
+&emsp;&emsp;**画面表示と同一の詳細結果は、外部ファイルとしても出力されています**  
 
 &emsp; 
 
 #### ３．２．ステップ2：VSSDetector「VSSパス」情報の確認と活用  
 
 &emsp;**3.2.1 詳細結果ファイルのアクセス**  
-&emsp;&emsp;実行フォルダに作成された「ChaL-RESULT-VSSDetector.txt」を開く
+&emsp;&emsp;実行フォルダに作成された「ChaL-RESULT-VSSDetector.txt」を開きます
 
 &emsp;**3.2.2 VSSDetector「VSSパス」情報の表示例**：
 
@@ -130,71 +129,85 @@ Chall-Link「VSSDetector」は、Windowsの隠れた機能 VSS スナップシ�
    ────────────────────────────
 ```
 
+&emsp; 
+
 &emsp;**3.2.3 VSSDetector「VSSパス」の選択とコピー**  
 &emsp;&emsp;バックアップ対象ドライブに対応する最適なVSSDetector「VSSパス」を慎重にコピー
 
 > ⚠️ VSSDetector「VSSパス」指定の重要ルール
-> **ドライブ全体指定**：末尾に「\*」を必ず付加（例：〜Copy1\*）
+> **ドライブ全体指定**：末尾に「\*」を必ず付加（例：〜Copy1\*）  
 > **特定フォルダ指定**：(フォルダ名)を実際の正確なフォルダ名に置換
-
-**★★これでスナップショットファイルへ直接アクセスするための「 VSSパス」の抽出が完了！**
 
 &emsp; 
 
+**🚀 これでスナップショットファイルへ直接アクセスするための「 VSSパス」の抽出が完了！**
 **次に、Chall-Link「PreFAS Backup」（大容量バックアップのための7-Zipの機能拡張スクリプト）または7-Zip File Managerによる暗号化7-Zipアーカイブの作成方法を説明します。**
 
 &emsp; 
 
 ### ４．アーカイブ・バックアップの実行
 
-#### ４．１．方法1：7-Zip GUIでの手動実行（小～中規模アーカイブ向け）
+#### ４．１． 設定条件、注意事項
+ここでは、下記の設定で説明します：
+- **設定例：**  
+ソースフォルダ： d:\folder1\sub-folder2\  
+出力先： e:\7-Zip-output\  
+ドライブ全体の場合の設定も併記します。なお、ドライブ全体を実行する場合は12時間以上かかることがあります。十分な練習を積んだ上でご利用することをお勧めします。
 
-&emsp;**4.1.1 7-Zip File Managerを管理者権限で起動**
+- **重要な確認事項：**
+パスワードを設定した場合は、バックアップ作成後に7-Zip File Managerでファイルを開きファイルツリーを正しく閲覧できるかなど必ず確認してください。
 
-&emsp;**4.1.2 VSSDetector「VSSパス」での直接アクセス**  
-&emsp;&emsp;アドレスバーに VSSDetector「VSSパス」を入力（末尾の\*は除く）  
+- **免責事項：**
+バックアップ後にソースを削除し、バックアップも破損していた場合など、データ損失について、Chall-Linkは一切の責任を負いません。
+
+#### ４．２．方法1：7-Zip GUIでの手動実行（小規模アーカイブ向けにおすすめ）
+
+&emsp;**4.2.1 「7-Zip File Manager」を管理者権限で起動**
+
+&emsp;**4.2.2 VSSDetector「VSSパス」での直接アクセス**  
+&emsp;&emsp;アドレスバーに VSSDetector「VSSパス」を入力 **（末尾の\*は除く）**  
 &emsp;&emsp;例：\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\
 
-&emsp;**4.1.3 アーカイブターゲットの選択**  
-&emsp;&emsp;対象フォルダを選択 → 「追加」を選択で、圧縮ウィンドウが開く
+&emsp;**4.2.3 アーカイブターゲットの選択**  
+&emsp;&emsp;対象フォルダ（ folder1\sub-folder2\ ）を選択 → 「追加」を選択で圧縮ウィンドウが開く
 
-&emsp;**4.1.4 【重要】出力先の設定**  
+&emsp;**4.2.4 【重要】出力先の変更**  
 &emsp;&emsp;このままでは圧縮ファイルの出力先が、  
 &emsp;&emsp;\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\  
-&emsp;&emsp;に設定されていますが、ここは書き込み禁止エリアなので、  
-&emsp;&emsp;圧縮先を、出力可能フォルダへのフルパス表記に変更します。  
+&emsp;&emsp;に設定されていますが、ここはスナップショットの内部で書き込み禁止エリアです。  
+&emsp;&emsp;圧縮先を出力可能な実際の出力フォルダ（e:\7-Zip-output\ ）に変更します。  
 &emsp;&emsp;例：  
-&emsp;&emsp;× file-a.7z  
-&emsp;&emsp;○ d:\temp\file-a.7z
+&emsp;&emsp; NG file-a.7z  
+&emsp;&emsp; OK e:\7-Zip-output\file-1.7z
 
-> **GUI方式の制限事項**：大容量処理では非現実的、CPU負荷制御機能なしなど
+> **GUI方式**：全ての7-Zipのオプションは使えません。また長時間処理でのCPU負荷制御など限界があります
 
-#### ４．２．方法2：PreFASでの拡張7-Zip処理の実行（ドライブ丸ごとなど、大容量バックアップ向け）
+#### ４．３．方法2：PreFAS Backupでの拡張7-Zip処理の実行（ドライブ丸ごとなど、大容量バックアップ向け）
 
 **💡 PreFASによる市販ソフトレベル機能の実現**：  
-・**4TB越えのフォルダ／ドライブを想定した全自動7-Zipアーカイブシステム**  
+・**テラバイトを越えのるフォルダ／ドライブのバックアップを想定した全自動7-Zipアーカイブシステム**  
 ・**CPU負荷制御による安定した長時間処理の実現**  
 ・**AES-256暗号化によるセキュアなクラウド保存完全対応**  
 ・**M-Disc（100年耐久性）、Blu-rayディスクに完全最適化された分割サイズ設定**  
 ・**プロフェッショナル品質のエラーハンドリングシステム**
 
-&emsp;**4.2.1 PreFAS-Sub.batの設定**  
-&emsp;&emsp;テキストエディタでPreFAS-Sub.batを開き、「アーカイブするソースフォルダ」を設定：
+&emsp;**4.3.1 PreFAS-Sub.batの設定**  
+&emsp;&emsp;テキストエディタでPreFAS-Sub.batを開き、「アーカイブするソースフォルダ」の変数を設定：
 
-&emsp;&emsp;**D:ドライブ全体をバックアップする場合**：
+&emsp;&emsp;**【Case1】d:\folder1\sub-folder2\  をバックアップする場合**：
+```
+set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\folder1\sub-folder2\"
+```
+
+&emsp;&emsp;**【Case2】D:ドライブ全体をバックアップする場合：（末尾に*がある事を確認ください**）
 ```
 set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*"
 ```
 
-&emsp;&emsp;**特定フォルダ（D:\FOL-1\FOL-2）をバックアップする場合**：
-```
-set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\FOL-1\FOL-2"
-```
-
-&emsp;**4.2.2 その他の重要設定項目の最適化**  
-&emsp;&emsp;・出力アーカイブファイル名の設定  
-&emsp;&emsp;・アーカイブファイル出力フォルダの最適化  
-&emsp;&emsp;・除外ファイル、除外フォルダの指定
+&emsp;**4.2.2 その他の必須／重要変数の設定**  
+&emsp;&emsp;・出力アーカイブファイル名  file-1 （拡張子不要）
+&emsp;&emsp;・アーカイブファイル出力フォルダ  e:\7-Zip-output\
+&emsp;&emsp;・除外ファイル、除外フォルダの指定 set EXCLUDE=-xr!"*.tmp" -xr!"*.temp"
 
 &emsp;**4.2.3 PreFAS-Main.batの確実な実行**  
 &emsp;&emsp;右クリック → 「管理者として実行」
