@@ -29,10 +29,10 @@
 ## ■ 動作環境
 
 - スクリプトのテキストファイル属性：改行コード CRLF、文字コード Shift-JIS
-（[GitHub Release](https://github.com/Chall-Link/VSSDetector/releases)掲載の「Source code (zip)」は同ファイル属性に設定済）
+（ [GitHub Release](https://github.com/Chall-Link/VSSDetector/releases) 掲載の「Source code (zip)」は同ファイル属性に設定済）
 - Windows 10 Pro 64bit（動作確認済み）、理論上はWindows 7 SP1以上で動作可能（未確認のため自己責任でテスト推奨）
 - 必要条件: PowerShell 2.0以上（Windows標準搭載）、管理者権限、VSSサービスが有効
-- 併用推奨ソフト：Chall-Link「PreFAS」(VSSDetector公開直後に公開予定)、7-Zip（LGPLライセンス）（https://www.7-zip.org/ から入手）
+- 併用推奨ソフト：Chall-Link「PreFAS」(VSSDetector公開直後に公開予定)、7-Zip（LGPLライセンス）（ https://www.7-zip.org/  から入手）
 
 &nbsp;
 
@@ -50,7 +50,7 @@ Chall-Link「VSSDetector」を使えば、Windowsのスナップショット＝�
 ## 【  基本的な使い方　～まずは体験してみよう。驚きの瞬間！～ 】
 
 ### ■ 3分でできる感動体験 
-> ここではVSSDetectorの使い方のみを説明します。前提条件として事前に復元ポイントが作成されている必要がありますが、このスクリプトは情報取得機能のみで復元ポイントが無い状態で実行しても「復元ポイントが作成されていない可能性があります」というメッセージが出るだけでシステムに影響を及ぼす事はありません。わからない場合、とりあえず実行してみていただいても問題ございません。復元ポイント作成など詳しい手順は別の活用ガイド([advanced-backup-guide.md](https://github.com/Chall-Link/VSSDetector/blob/main/docs/advanced-backup-guide.md))を参照ください。  
+> ここではVSSDetectorの使い方のみを説明します。前提条件として事前に復元ポイントが作成されている必要がありますが、このスクリプトは情報取得機能のみで復元ポイントが無い状態で実行しても「復元ポイントが作成されていない可能性があります」というメッセージが出るだけでシステムに影響を及ぼす事はありません。わからない場合、とりあえず実行してみていただいても問題ございません。復元ポイント作成など詳しい手順は別の活用ガイド( [advanced-backup-guide.md](https://github.com/Chall-Link/VSSDetector/blob/main/docs/advanced-backup-guide.md) )を参照ください。  
 > なお、新たに復元ポイントを作成して良いかなどは、PCの管理者と相談し許可を得てください。
 
 1. ChaL-VSSDetector.batを右クリックして管理者権限で実行
@@ -71,6 +71,13 @@ Chall-Link「VSSDetector」を使えば、Windowsのスナップショット＝�
 &nbsp; 
 
 **＊＊ これで、VSSDetector VSSパス を取得する事ができました！ ＊＊**
+
+&nbsp;
+
+```
+ここから先の体験は、別途 7-Zip（LGPLライセンス）（ https://www.7-zip.org/ ) が必要となります。  
+必要に応じてインストールして下さい。
+```
 
 &nbsp;
 
