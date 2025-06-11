@@ -2,7 +2,7 @@
 
 # Chall-Link「VSSDetector」 - VSS スナップショット 汎用パス取得ツール
 
-## 　　Chall-Link「VSSDetector」日本語版 Ver.1.0.0
+## 　　日本語版 Ver.1.0.0
 
 ## 　　Windowsの隠れた機能を誰でも使えるように機能解放！
 
