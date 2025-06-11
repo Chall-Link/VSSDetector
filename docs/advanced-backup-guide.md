@@ -205,9 +205,15 @@ set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*"
 ```
 
 &emsp;**4.2.2 その他の必須／重要変数の設定**  
-&emsp;&emsp;・出力アーカイブファイル名  file-1 （拡張子不要）
-&emsp;&emsp;・アーカイブファイル出力フォルダ  e:\7-Zip-output\
-&emsp;&emsp;・除外ファイル、除外フォルダの指定 set EXCLUDE=-xr!"*.tmp" -xr!"*.temp"
+
+&emsp;&emsp;**出力アーカイブファイル名の設定**  
+&emsp;&emsp;&emsp;`file-1` （拡張子不要）
+
+&emsp;&emsp;**アーカイブファイル出力フォルダの設定**  
+&emsp;&emsp;&emsp;`e:\7-Zip-output\`
+
+&emsp;&emsp;**除外ファイル、除外フォルダの指定**  
+&emsp;&emsp;&emsp;`set EXCLUDE=-xr!"*.tmp" -xr!"*.temp"`
 
 &emsp;**4.2.3 PreFAS-Main.batの確実な実行**  
 &emsp;&emsp;右クリック → 「管理者として実行」
