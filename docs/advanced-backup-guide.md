@@ -110,10 +110,12 @@ Chall-Link「VSSDetector」は、Windowsの隠され機能 VSS スナップシ�
 
 #### ３．２．ステップ2：VSSDetector VSSパス情報の確認と活用  
 
-(4) **詳細結果ファイルのアクセス**  
-実行フォルダに作成された「ChaL-RESULT-VSSDetector.txt」を開く
+&emsp; **3.2.1 詳細結果ファイルのアクセス**  
+&emsp; &emsp;実行フォルダに作成された「ChaL-RESULT-VSSDetector.txt」を開く
 
-(5) **VSSDetector VSSパス情報の表示例**：
+&emsp; **3.2.2 VSSDetector VSSパス情報の表示例**：
+
+```
    ────────────────────────────
    [1] HarddiskVolumeShadowCopy1 (ドライブ D:)
        作成日時: 2024/06/06 14:30:25
@@ -121,11 +123,12 @@ Chall-Link「VSSDetector」は、Windowsの隠され機能 VSS スナップシ�
        ドライブ全体指定時パス表記: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*
        フォルダ指定時パス表記: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\(フォルダ名)
    ────────────────────────────
+```
 
-(6) **VSSDetector VSSパスの選択とコピー**
+&emsp; **3.2.2 VSSDetector VSSパスの選択とコピー**
 バックアップ対象ドライブに対応する最適なVSSDetector VSSパスを慎重にコピー
 
-■ VSSDetector VSSパス指定の重要ルール
+💡 VSSDetector VSSパス指定の重要ルール
 ・**ドライブ全体指定**：末尾に「\*」を必ず付加（例：〜Copy1\*）
 ・**特定フォルダ指定**：(フォルダ名)を実際の正確なフォルダ名に置換
 
