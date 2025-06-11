@@ -12,10 +12,10 @@
 
 &nbsp;
 
-## ■本・活用ガイドで使用するソフト
+## ■この活用ガイドで使用するソフト
 
 &emsp;**1. Chall-Link「PreFAS Backup」（GitHub から入手）**  
-&emsp;**2. 7-Zip（LGPLライセンス）（https://www.7-zip.org/ から入手）**  
+&emsp;**2. 7-Zip（LGPLライセンス）（https://www.7-Zip.org/ から入手）**  
 
 > 読んでいただくだけでご理解いただけるので、今は準備いただかなくて問題ありません
 > PreFAS Backup の設定項目は、基本的に7-Zipや、Zip と同じです。
@@ -23,7 +23,7 @@
 &nbsp;
 
 ## ■このガイドについて
-Chall-Link「VSSDetector」は、Windowsの隠され機能 VSS スナップショット、すなわち、ある時点で静的に変更されない形で保存されているドライブのリソースを、一般ユーザーが自由に再利用できる事を実現します。
+Chall-Link「VSSDetector」は、Windowsの隠れた機能 VSS スナップショット、すなわち、ある時点で静的に変更されない形で保存されているドライブのリソースを、一般ユーザーが自由に再利用できる事を実現します。
 
 ここでは、VSSDetectorとChall-Link「PreFAS Backup」または7-Zipの組合わせを例に、Windows復元ポイントを利用してバックアップする具体的な手順をご紹介します。  
 別ソフトChall-Link「PreFAS Backup」は、7-Zipの機能拡張スクリプトで、設定項目は7-Zipと同じです。  
@@ -39,7 +39,7 @@ Chall-Link「VSSDetector」は、Windowsの隠され機能 VSS スナップシ�
 >　　　　　　　　　　　↓  
 > VSSDetector：（例）\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*  ※処理中に作業継続可能
 
-**VSSDetector の技術的ブレークスルーで、従来容易ではなかった、大容量フォルダ／ドライブの7-Zip バックアップ処理中にソースフォルダ／ドライブで通常作業の継続可能が可能となります！**
+**VSSDetector の技術的ブレークスルーで、従来容易ではなかった、大容量フォルダ／ドライブの7-Zip バックアップ処理中にソースフォルダ／ドライブで通常作業の継続が可能となります！**
 
 &nbsp;
 
@@ -84,7 +84,7 @@ Chall-Link「VSSDetector」は、Windowsの隠され機能 VSS スナップシ�
 
 &nbsp;
 
-**これで、現時点でのドライブの静的が状態保存＝高品質スナップショットが作成完了しました！**  
+**これで、現時点でのドライブの静的な状態保存＝高品質スナップショットが作成完了しました！**  
 **これから、この復元ポイントのスナップショットを、使っていきます！**  
 
 &nbsp;
@@ -113,12 +113,12 @@ Chall-Link「VSSDetector」は、Windowsの隠され機能 VSS スナップシ�
 
 &emsp; 
 
-#### ３．２．ステップ2：VSSDetector VSSパス情報の確認と活用  
+#### ３．２．ステップ2：VSSDetector「VSSパス」情報の確認と活用  
 
 &emsp;**3.2.1 詳細結果ファイルのアクセス**  
 &emsp;&emsp;実行フォルダに作成された「ChaL-RESULT-VSSDetector.txt」を開く
 
-&emsp;**3.2.2 VSSDetector VSSパス情報の表示例**：
+&emsp;**3.2.2 VSSDetector「VSSパス」情報の表示例**：
 
 ```
    ────────────────────────────
@@ -130,10 +130,10 @@ Chall-Link「VSSDetector」は、Windowsの隠され機能 VSS スナップシ�
    ────────────────────────────
 ```
 
-&emsp;**3.2.3 VSSDetector VSSパスの選択とコピー**  
-&emsp;&emsp;バックアップ対象ドライブに対応する最適なVSSDetector VSSパスを慎重にコピー
+&emsp;**3.2.3 VSSDetector「VSSパス」の選択とコピー**  
+&emsp;&emsp;バックアップ対象ドライブに対応する最適なVSSDetector「VSSパス」を慎重にコピー
 
-> ⚠️ VSSDetector VSSパス指定の重要ルール
+> ⚠️ VSSDetector「VSSパス」指定の重要ルール
 > **ドライブ全体指定**：末尾に「\*」を必ず付加（例：〜Copy1\*）
 > **特定フォルダ指定**：(フォルダ名)を実際の正確なフォルダ名に置換
 
@@ -141,18 +141,18 @@ Chall-Link「VSSDetector」は、Windowsの隠され機能 VSS スナップシ�
 
 &emsp; 
 
-**次に、Chall-Link「PreFAS Backup」（大容量バックアップのための7-Zipの機能拡張スクリプト）または7-zip File Managerによる暗号化7-Zipアーカイブの作成方法を説明します。**
+**次に、Chall-Link「PreFAS Backup」（大容量バックアップのための7-Zipの機能拡張スクリプト）または7-Zip File Managerによる暗号化7-Zipアーカイブの作成方法を説明します。**
 
 &emsp; 
 
 ### ４．アーカイブ・バックアップの実行
 
-#### ４．１．方法1：7-zip GUIでの手動実行（小～中規模アーカイブ向け）
+#### ４．１．方法1：7-Zip GUIでの手動実行（小～中規模アーカイブ向け）
 
-&emsp;**4.1.1 7-zip File Managerを管理者権限で起動**
+&emsp;**4.1.1 7-Zip File Managerを管理者権限で起動**
 
-&emsp;**4.1.2 VSSDetector VSSパスでの直接アクセス**  
-&emsp;&emsp;アドレスバーに VSSDetector VSSパスを入力（末尾の\*は除く）  
+&emsp;**4.1.2 VSSDetector「VSSパス」での直接アクセス**  
+&emsp;&emsp;アドレスバーに VSSDetector「VSSパス」を入力（末尾の\*は除く）  
 &emsp;&emsp;例：\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\
 
 &emsp;**4.1.3 アーカイブターゲットの選択**  
@@ -215,7 +215,7 @@ set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\FOL-1\FOL-2"
 ## ■⚠️ 絶対に遵守すべき重要な制約事項
 
 ### １．致命的な禁止事項（違反すると処理が完全に失敗します）
-&emsp;**1.1 VSSDetector VSSパス使用中の新しい復元ポイント作成は絶対禁止**  
+&emsp;**1.1 VSSDetector「VSSパス」使用中の新しい復元ポイント作成は絶対禁止**  
 &emsp;**1.2 処理中のシャットダウン・再起動は絶対禁止**  
 &emsp;**1.3 休止モード・スリープモードへの移行は絶対禁止**
 
@@ -248,7 +248,7 @@ set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\FOL-1\FOL-2"
 
 ## ■トラブルシューティング・FAQ
 
-### １．PreFASでVSSDetector VSSパスが認識されない
+### １．PreFASでVSSDetector「VSSパス」が認識されない
 &emsp;**1.1 確認項目**  
 &emsp;&emsp;以下の項目を確認してください  
 &emsp;&emsp;- ドライブ全体指定：末尾に「\*」が必須  
