@@ -13,19 +13,19 @@
 &nbsp;
 
 ## ■本・活用ガイドで使用するソフト
-(1) 7-Zip（LGPLライセンス）（https://www.7-zip.org/ から入手）  
-(2) Chall-Link「PreFAS」
+(1) Chall-Link「PreFAS」（GitHub から入手）
+(2) 7-Zip（LGPLライセンス）（https://www.7-zip.org/ から入手）  
 ```
-※ 仮想体験で十分にご理解いただけますので、(1),(2) のソフトの準備は不用です。
+※ 読んでいただくで理解できるので、今は必ずしも準備いただかなくて問題ありません
 ※ PreFAS Backup の操作、設定項目は、基本的に7-Zipや、Zip と同じです。
 ```
 
 &nbsp;
 
 ## ■このガイドについて
-Chall-Link「VSSDetector」は、Windowsの隠され機能 VSS スナップショット、ある時点で静的に変更されない形で保存されている、ドライブを一般ユーザーが自由に再利用する事を実現します。
+Chall-Link「VSSDetector」は、Windowsの隠され機能 VSS スナップショット、ある時点で静的に変更されない形で保存されているドライブのリソースを一般ユーザーが自由に再利用する事を実現します。
 
-ここでは、VSSDetectorと 7-Zipまたは Chall-Link「PreFAS Backup」を例にWindows復元ポイントを利用してバックアップする具体的な手順をご紹介します。
+ここでは、VSSDetectorとChall-Link「PreFAS Backup」または7-Zipの組合わせを例に、Windows復元ポイントを利用してバックアップする具体的な手順をご紹介します。
 別ソフトChall-Link「PreFAS Backup」は、7-Zipの機能拡張スクリプトで、設定項目は7-Zipと同じです。
 （2025年6月7日現在、PreFAS Backupは、VSSDetector公開後、同時期に公開予定です。）
 
