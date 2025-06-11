@@ -16,25 +16,32 @@
 (1) 7-Zip（LGPLライセンス）（https://www.7-zip.org/ から入手）  
 (2) Chall-Link「PreFAS」
 ```
-※ ここでの機能の理解においては (1), (2) どちらか片方だけでも問題ありません。
+※ 仮想体験で十分にご理解いただけますので、(1),(2) のソフトの準備は不用です。
 ※ PreFAS Backup の操作、設定項目は、基本的に7-Zipや、Zip と同じです。
 ```
 
 &nbsp;
 
 ## ■このガイドについて
-Chall-Link「VSSDetector」は、Windowsの隠された機能である VSS スナップショット、すなわち、ある時点で静的に変更されない形で保存されたドライブ／フォルダ／ファイルを一般ユーザーが自由に再利用する事を実現します。
+Chall-Link「VSSDetector」は、Windowsの隠され機能 VSS スナップショット、ある時点で静的に変更されない形で保存されている、ドライブを一般ユーザーが自由に再利用する事を実現します。
 
-ここでは、VSSDetectorと 7-Zipまたは Chall-Link「PreFAS Backup」を使い、Windows復元ポイントを利用して「7-Zipでドライブ丸ごとバックアップ」する具体的な手順をご紹介します。
-別ソフト PreFAS Backup は、7-Zipの機能拡張スクリプトです。
-（2025年6月7日現在、PreFAS Backupは、VSSDetectorと同時期に公開予定です。）
+ここでは、VSSDetectorと 7-Zipまたは Chall-Link「PreFAS Backup」を例にWindows復元ポイントを利用してバックアップする具体的な手順をご紹介します。
+別ソフトChall-Link「PreFAS Backup」は、7-Zipの機能拡張スクリプトで、設定項目は7-Zipと同じです。
+（2025年6月7日現在、PreFAS Backupは、VSSDetector公開後、同時期に公開予定です。）
 
-【 具体的な使用例 】
-##■ 目標：Dドライブ（4TB）を丸ごとPreFASで7-Zipアーカイブ化
-・従来の制約あるパス指定：（例）D:\  ※D:での作業を中断する必要があった
-・**VSSDetector VSSパス指定**：（例）\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*  ※作業継続可能
+## ■具体的な使用例
+
+###■ 目標：VSS スナップショット内のフォルダを、アーカイブソースとして 7-Zipアーカイブを作成  
+説明文の中ではドライブ丸ごとをソースにする説明もありますが、例えば処理に12時間以上かかる場合がありますので、体験操作としては、フォルダを例に取って説明します。  
+
+・従来の制約あるパス指定：（例）D:\  ※ 処理中は D:での作業を中断する必要があった  
+・**VSSDetectorによる VSSパス指定**：（例）\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*  ※処理中に作業継続可能
+
+&nbsp;
 
 **VSSDetector VSSパス利用のブレークスルーで**、従来不可能だった「大容量フォルダの7-Zip バックアップ処理中でもD:ドライブで通常作業を継続可能」が実現されます。
+
+&nbsp;
 
 もちろん、ドライブ全体以外に、任意の特定フォルダも同様にこの技術を利用できます。
 
