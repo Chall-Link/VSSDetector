@@ -74,10 +74,8 @@ Chall-Link「VSSDetector」を使えば、Windowsのスナップショット＝�
 
 &nbsp;
 
-```
-ここから先の体験は、別途 7-Zip（LGPLライセンス）（ https://www.7-zip.org/ ) が必要となります。  
-必要に応じてインストールして下さい。
-```
+> ここから先の体験は、別途 7-Zip（LGPLライセンス）（ https://www.7-zip.org/ ) が必要となります。  
+> 必要に応じてインストールして下さい。
 
 &nbsp;
 
