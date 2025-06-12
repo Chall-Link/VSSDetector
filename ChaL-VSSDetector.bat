@@ -1,4 +1,10 @@
 ::
+:: ＊＊＊　重要　＊＊＊
+:: この日本語版スクリプトは GitHubから Rawとしてダウンロードすると改行コードがLFになり動作しませんのでご注意下さい。
+:: 正常動作するためには、文字コードが Shift-JIS、改行コードが CRLFである必要があります。
+:: GitHub Release からZipファイルをダウンロードいただくと正常動作する形でダウンロードいただけます。
+::
+::
 ::　～ VolumeShadowCopy スナップショット パス取得スクリプト ～
 :: －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
 ::　　VSSDetector 日本語版 Ver.1.0.0
@@ -8,6 +14,7 @@
 ::　　ソースフォルダ、ソースドライブを指定可能になる。
 ::
 ::   Copyright by Chall-Link（シャルリンク）
+::   Developed in Japan
 ::
 :: ※本スクリプトは管理者権限で実行してください。
 ::
@@ -53,7 +60,7 @@ vssadmin list shadows > "%TEMP_FILE%" 2>&1
 
 if %errorLevel% neq 0 (
     echo [エラー] スナップショット情報の取得に失敗しました
-    echo VSSサービスが実行されていない可能性があります
+    echo 復元ポイントが作成されていない可能性があります
     del "%TEMP_FILE%" >nul 2>&1
     echo 任意のキーを押して終了...
     pause >nul
@@ -241,4 +248,4 @@ echo スクリプトの実行が完了しました。
 echo 任意のキーを押して終了...
 echo.
 pause >nul
-popdREM temporary line 
+popd
