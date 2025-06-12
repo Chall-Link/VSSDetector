@@ -15,32 +15,28 @@
 
 ## ■この活用ガイドで使用するソフト
 
-&emsp;**1. Chall-Link「PreFAS Backup」（GitHub から入手）**  
+&emsp;**1. 7-Zip機能拡張版スクリプト Chall-Link「PreFAS Backup」※（GitHubから入手）**  
 &emsp;**2. 7-Zip（LGPLライセンス）（https://www.7-Zip.org/ から入手）**  
 
-> 読むだけでご理解いただけますので、ソフトは特に準備いただかなくて問題ありません
-> 別ソフトChall-Link「PreFAS Backup」※は、7-Zipの機能拡張スクリプトで、設定項目は7-Zipと同じです。  
 > ※ VSSDetector公開後、同時期に公開予定  
 
 &nbsp;
 
 ## ■このガイドについて
-Chall-Link「VSSDetector」は、Windowsの隠れた機能 VSS スナップショット＝ある時点で変更されない形で保存されているドライブのリソースを、一般ユーザーが自由に再利用できるようにします
+Chall-Link「VSSDetector」は、Windowsの隠れた機能 **VSS スナップショット**＝ある時点で変更されない形で保存されているドライブの状態を一般ユーザーが自由に再利用できるよう機能解放します
 
 活用ガイドでは、VSSDetectorとChall-Link「PreFAS Backup」または7-Zipの組合わせを例に、Windows復元ポイントをアーカイブ元として、バックアップソフトやバックアッププログラムを実行する具体的手順を紹介します  
-
 
 &nbsp;
 
 ## ■具体的な使用例
 
 ### １．目標：VSSスナップショット内のフォルダをアーカイブソースとして 7-Zipアーカイブを作成  
-ドライブ丸ごとをアーカイブのソースとする事も可能です  
 > 従来のソースのパス指定例： D:\  ※ 処理中は D:での作業を中断する必要があった  
 >　　　　　　　　　　　↓  
 > VSSDetector「VSSパス」指定例： \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*  ※処理中でも作業継続可能
 
-**VSSDetector の技術的ブレークスルーで、大容量フォルダ（ドライブ）の7-Zip バックアップ処理中に、ソースフォルダ（ドライブ）で編集作業が継続可能になります！**
+**VSSDetector の技術的ブレークスルーで、大容量フォルダ（ドライブ）でPC作業を継続しながら、大容量フォルダ（ドライブ）の7-Zip バックアップ処理を同時に実行する事が可能になります！**
 
 &nbsp;
 
