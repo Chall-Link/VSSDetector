@@ -93,11 +93,11 @@ Chall-Link「VSSDetector」は、Windowsの隠れた機能 **VSS スナップシ
 
 #### ３．１．ステップ1：VSSDetectorの実行  
 
-&emsp;**3.1.1 ChaL-VSSDetector.batを右クリックし、「管理者として実行」**  
+&emsp;**（１）ChaL-VSSDetector.batを右クリックし、「管理者として実行」**  
 
-&emsp;**3.1.2 VSSスナップショットの解析処理が実行されます**  
+&emsp;**（２）VSSスナップショットの解析処理が実行されます**  
 
-&emsp;**3.1.3 実行完了**  
+&emsp;**（３）実行完了**  
 &emsp;&emsp;「スクリプトの実行が完了しました」のメッセージを確認したら、  
 &emsp;&emsp;**画面表示と同一の詳細結果が外部ファイルとして出力されています**ので画面を閉じて問題ありません  
 
@@ -105,10 +105,11 @@ Chall-Link「VSSDetector」は、Windowsの隠れた機能 **VSS スナップシ
 
 #### ３．２．ステップ2：VSSDetector「VSSパス」情報の確認と活用  
 
-&emsp;**3.2.1 詳細結果ファイルのアクセス**  
-&emsp;&emsp;実行フォルダに作成された「ChaL-RESULT-VSSDetector.txt」を開きます
+&emsp;**（１）出力結果ファイル**  
+&emsp;&emsp;実行フォルダに作成された「ChaL-RESULT-VSSDetector.txt」を開きます  
+&emsp;&emsp;このファイルは実行するごとに上書きされます 
 
-&emsp;**3.2.2 VSSDetector「VSSパス」情報の表示例**：
+&emsp;**（２）VSSDetector「VSSパス」情報の表示例**：
 
 ```
    ────────────────────────────
@@ -120,9 +121,7 @@ Chall-Link「VSSDetector」は、Windowsの隠れた機能 **VSS スナップシ
    ────────────────────────────
 ```
 
-&emsp; 
-
-&emsp;**3.2.3 VSSDetector「VSSパス」の選択とコピー**  
+&emsp;**（３）VSSDetector「VSSパス」の選択とコピー**  
 &emsp;&emsp;バックアップ対象ドライブ／フォルダに対応する最適なVSSパスをコピー
 
 > ⚠️ VSSDetector「VSSパス」ドライブ全体指定と、フォルダ指定の違い
@@ -131,8 +130,8 @@ Chall-Link「VSSDetector」は、Windowsの隠れた機能 **VSS スナップシ
 
 &emsp; 
 
-**🚀 VSSスナップショットへ直接アクセスするためのVSSパスの抽出が完了しました！**
-**次に、7-Zip機能拡張版スクリプト Chall-Link「PreFAS Backup」または7-Zip File ManagerによるVSSスナップショットを元にした7-Zipアーカイブの作成方法を説明します**
+**✔️ VSSスナップショットへ直接アクセスするためのVSSパスの抽出が完了しました！**  
+**次に、7-Zip機能拡張版スクリプト Chall-Link「PreFAS Backup」または7-Zip File ManagerによるVSSスナップショットをソースにした、7-Zipアーカイブの作成方法を説明します**  
 
 &emsp; 
 
@@ -140,39 +139,34 @@ Chall-Link「VSSDetector」は、Windowsの隠れた機能 **VSS スナップシ
 
 #### ４．１． 設定条件、注意事項
 
-- **設定例：**  
+**■ 設定例**  
+
 **【Case1】短時間で処理が終わる、小規模フォルダをアーカイブソースとする場合**  
-ソースフォルダ： d:\folder1\sub-folder2\  
-出力先： e:\7-Zip-output\
-
-&emsp; 
-
+ソースフォルダ： `d:\folder1\sub-folder2\`  
+出力先： `e:\7-Zip-output\`  
 **【Case2】長時間にわたる、ドライブ全体など大規模ソースをアーカイブソースとする場合**  
 ※ドライブ全体を実行する場合は12時間以上かかることがありますのでご注意ください
 
-- **重要な確認事項：**
-本番ではバックアップ作成後に7-Zip File Managerでファイルを開きファイルツリーを正しく閲覧できるかなど必ず確認してください
-
-- **免責事項：**
-バックアップ後にソースを削除し、パスワードが一致しない、バックアップも破損していた場合など、データ損失について、Chall-Linkは一切の責任を負いません
-
-#### ４．２．方法1：7-Zip GUIでの手動実行（小規模アーカイブ向けにおすすめ）
-
-**【Case1】短時間で処理が終わる、小規模フォルダをアーカイブソースとする場合**  
+> **⚠️ 重要な確認事項：**
+> 本番ではバックアップ作成後に7-Zip File Managerでファイルを開きファイルツリーを正しく閲覧できるかなど必ず確認してください
+> バックアップ後にソースを削除後に、パスワードが一致しない、バックアップも破損していたなどの場合が発生しても、著作> 者は一切の責任を負いません
 
 &emsp; 
 
-&emsp;**4.2.1 「7-Zip File Manager」を管理者権限で起動**
+#### ４．２．【方法1】7-Zip GUIでの手動実行（小規模アーカイブ向けにおすすめ）
 
-&emsp;**4.2.2 VSSDetector「VSSパス」での直接アクセス**  
+**【Case1】短時間で処理が終わる、小規模フォルダをアーカイブソースとする場合**  
+&emsp;**（１）「7-Zip File Manager」を管理者権限で起動**
+
+&emsp;**（２）VSSDetector「VSSパス」での直接アクセス**  
 &emsp;&emsp;7-Zip File Managerの場合は、ドライブ全体指定時パス表記の末尾の*を削除して利用してください**  
 &emsp;&emsp;アドレスバーに VSSDetector「VSSパス」を入力 **（末尾の\*は除く）**  
 &emsp;&emsp;例：\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\
 
-&emsp;**4.2.3 アーカイブターゲットの選択**  
+&emsp;**（３）アーカイブターゲットの選択**  
 &emsp;&emsp;対象フォルダ（例：folder1\sub-folder2\）を選択 → 「追加」を選択で圧縮ウィンドウが開く
 
-&emsp;**4.2.4 【重要】出力先の変更**  
+&emsp;**（４）【重要】出力先の変更**  
 &emsp;&emsp;このままでは圧縮ファイルの出力先が、スナップショットの内部  
 &emsp;&emsp;\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\  
 &emsp;&emsp;に設定されています。ここはスナップショットの内部で書き込みできません。  
@@ -189,10 +183,7 @@ Chall-Link「VSSDetector」は、Windowsの隠れた機能 **VSS スナップシ
 
 &emsp; 
 
-#### ４．３．方法2：PreFAS Backupでの拡張7-Zip処理の実行（大容量バックアップ向け）
-
-&emsp; 
-
+#### ４．３．【方法2】PreFAS Backupでの拡張7-Zip処理の実行（大容量バックアップ向け）
 ---
  **■ Chall-Link「PreFAS Backup」とは…**
 
