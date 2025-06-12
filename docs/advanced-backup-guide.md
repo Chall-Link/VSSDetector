@@ -83,7 +83,7 @@ Chall-Link「VSSDetector」は、Windowsの隠れた機能 **VSS スナップシ
 
 &nbsp;
 
-**✔️ これでドライブの静的な状態保存＝Windows VSS スナップショットの作成が完了しました！**  
+**✔️ `これでドライブの静的な状態保存＝Windows VSS スナップショットの作成が完了しました！`**  
 
 &nbsp;
 
@@ -130,8 +130,11 @@ Chall-Link「VSSDetector」は、Windowsの隠れた機能 **VSS スナップシ
 
 &emsp; 
 
-**✔️ VSSスナップショットへ直接アクセスするためのVSSパスの抽出が完了しました！**  
-**次に、7-Zip機能拡張版スクリプト Chall-Link「PreFAS Backup」または7-Zip File ManagerによるVSSスナップショットをソースにした、7-Zipアーカイブの作成方法を説明します**  
+**✔️ `VSSスナップショットへ直接アクセスするためのVSSパスの抽出が完了しました！`**  
+
+&emsp; 
+
+**👉`次に、7-Zip機能拡張版スクリプト Chall-Link「PreFAS Backup」または7-Zip File ManagerによるVSSスナップショットをソースにした、7-Zipアーカイブの作成方法を説明します`**  
 
 &emsp; 
 
@@ -155,6 +158,8 @@ Chall-Link「VSSDetector」は、Windowsの隠れた機能 **VSS スナップシ
 
 #### ４．２．【方法1】7-Zip GUIでの手動実行（小規模アーカイブ向けにおすすめ）
 
+***
+
 **【Case1】短時間で処理が終わる、小規模フォルダをアーカイブソースとする場合**  
 &emsp;**（１）「7-Zip File Manager」を管理者権限で起動**
 
@@ -174,39 +179,44 @@ Chall-Link「VSSDetector」は、Windowsの隠れた機能 **VSS スナップシ
 &emsp;&emsp;出力ファイル名を file-1.7z にした場合、このようになります
 &emsp;&emsp;e:\7-Zip-output\file-1.7z
 
-&emsp; 
+***
 
 **【Case2】長時間にわたる、ドライブ全体など大規模ソースをアーカイブソースとする場合**  
 
-> **～～～ 省略 ～～～**　　  
-> **👉 ドライブ全体などの大規模長時間処理にはGUI方式よりも 7-Zip機能拡張版スクリプト Chall-Link「PreFAS Backup」の利用をお奨めします**　　
+**～～～ 省略 ～～～**　　  
+**👉 ドライブ全体などの大規模長時間処理にはGUI方式よりも 7-Zip機能拡張版スクリプト Chall-Link「PreFAS Backup」の利用をお奨めします**  
+
+***
 
 &emsp; 
 
 #### ４．３．【方法2】PreFAS Backupでの拡張7-Zip処理の実行（大容量バックアップ向け）
----
- **■ Chall-Link「PreFAS Backup」とは…**
 
-Chall-Link「PreFAS Backup」は、災害から貴重なファイルを守るため、大規模ドライブやフォルダを7-ZipのAES-256暗号化で可搬性のあるアーカイブに変換し、クラウドやM-Disc（100年耐久光ディスク）に保存することをコンセプトに開発されたツールです。
-
-**【 PreFAS Backupの特徴 】**
-- セキュアなアーカイブ：AES-256暗号化でデータを強力に保護
-- 負荷低減と作業継続：7-ZipのCPU負荷を制御し、高負荷継続の抑制とソースフォルダでの編集作業を快適に  
-- 大規模対応：テラバイト級のフォルダ/ドライブを全自動でバックアップ  
-- 光ディスク最適化：25GB、50GB、100GBの光ディスクに効率的な分割サイズ設定  
-- プロ品質の信頼性：市販ソフト並みのエラーハンドリングシステム  
----
+> **■ Chall-Link「PreFAS Backup」とは…**
+> 
+> Chall-Link「PreFAS Backup」は、災害から貴重なファイルを守るため、大規模ドライブやフォルダを7-ZipのAES-256暗号化で可搬性のあるアーカイブに変換し、クラウドやM-Disc（100年耐久光ディスク）に保存することをコンセプトに開発されたツールです。
+> 
+> **【 PreFAS Backupの特徴 】**
+> - セキュアなアーカイブ：AES-256暗号化でデータを強力に保護
+> - 負荷低減と作業継続：7-ZipのCPU負荷を制御し、高負荷継続の抑制とソースフォルダでの編集作業を快適に  
+> - 大規模対応：テラバイト級のフォルダ/ドライブを全自動でバックアップ  
+> - 光ディスク最適化：25GB、50GB、100GBの光ディスクに効率的な分割サイズ設定  
+> - プロ品質の信頼性：市販ソフト並みのエラーハンドリングシステム
 
 &emsp; 
 
-&emsp;**4.3.1 PreFAS-Sub.batの設定**  
+&emsp;**（１）PreFAS-Sub.batの設定**  
 &emsp;&emsp;テキストエディタでChaL-PreFAS-Backup-SUB.batを開き、変数値を編集します：
+
+***
 
 **【Case1】短時間で処理が終わる、小規模フォルダをアーカイブソースとする場合**  
 
 ```
 set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\folder1\sub-folder2\"
 ```
+
+***
 
 **【Case2】長時間にわたる、ドライブ全体など大規模ソースをアーカイブソースとする場合**  
 
@@ -215,7 +225,11 @@ set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*"
 ```
 > この場合は、末尾に*が必要です
 
-&emsp;**4.3.2 その他の必須／重要変数の設定**  
+***
+
+&emsp; 
+
+&emsp;**（２）その他の必須／重要変数の設定**  
 &emsp;&emsp;テキストエディタでChaL-PreFAS-Backup-SUB.batを開き、変数値を編集します：
 
 &emsp;&emsp;**出力アーカイブファイル名の設定**  
@@ -227,13 +241,13 @@ set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*"
 &emsp;&emsp;**除外ファイル、除外フォルダの指定**  
 &emsp;&emsp;&emsp;`set EXCLUDE=-xr!"*.tmp" -xr!"*.temp"`
 
-&emsp;**4.3.3 ChaL-PreFAS-Backup-MAIN.batの確実な実行**  
+&emsp;**（３）ChaL-PreFAS-Backup-MAIN.batの確実な実行**  
 &emsp;&emsp;右クリック → 「管理者として実行」
 
-&emsp;**4.3.4 パスワード設定**  
+&emsp;**（４）パスワード設定**  
 &emsp;&emsp;AES-256暗号化用の強力なパスワードを2回入力（英数字や記号を含む20〜30桁を推奨）
 
-&emsp;**4.3.5 自動処理の開始**  
+&emsp;**（５）自動処理の開始**  
 &emsp;&emsp;- 背景色が水色で表示され、高度な自動処理が開始  
 &emsp;&emsp;- Chall-Link「PreFAS Backup」によりCPU負荷が制御され、アーカイブ処理中に通常通りのファイル編集が可能  
 &emsp;&emsp;- 完了時に「Everything is Ok」が表示され処理が成功
