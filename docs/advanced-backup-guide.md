@@ -230,7 +230,7 @@ set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*"
 &emsp; 
 
 &emsp;**（２）その他の必須／重要変数の設定**  
-&emsp;&emsp;テキストエディタでChaL-PreFAS-Backup-SUB.batを開き、変数値を編集します：
+&emsp;&emsp;テキストエディタでChaL-PreFAS-Backup-SUB.batを開き、変数値を編集します
 
 &emsp;&emsp;**出力アーカイブファイル名の設定**  
 &emsp;&emsp;&emsp;`file-1` （拡張子不要）
@@ -238,27 +238,30 @@ set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*"
 &emsp;&emsp;**アーカイブファイル出力フォルダの設定**  
 &emsp;&emsp;&emsp;`e:\7-Zip-output\`
 
-&emsp;&emsp;**除外ファイル、除外フォルダの指定**  
+&emsp;&emsp;**除外ファイル、除外フォルダの指定（例）**  
 &emsp;&emsp;&emsp;`set EXCLUDE=-xr!"*.tmp" -xr!"*.temp"`
 
 &emsp;**（３）ChaL-PreFAS-Backup-MAIN.batの確実な実行**  
 &emsp;&emsp;右クリック → 「管理者として実行」
 
 &emsp;**（４）パスワード設定**  
-&emsp;&emsp;AES-256暗号化用の強力なパスワードを2回入力（英数字や記号を含む20〜30桁を推奨）
+&emsp;&emsp;AES-256暗号化用の強力なパスワードを2回入力（機密性が高い場合、英数字記号での20〜30桁を推奨します）
 
 &emsp;**（５）自動処理の開始**  
-&emsp;&emsp;- 背景色が水色で表示され、高度な自動処理が開始  
-&emsp;&emsp;- Chall-Link「PreFAS Backup」によりCPU負荷が制御され、アーカイブ処理中に通常通りのファイル編集が可能  
-&emsp;&emsp;- 完了時に「Everything is Ok」が表示され処理が成功
+&emsp;&emsp;● 背景色が水色で表示され、高度な自動処理が開始  
+&emsp;&emsp;● Chall-Link「PreFAS Backup」によりCPU負荷が制御され、アーカイブ処理中に通常通りのファイル編集が可能  
+&emsp;&emsp;● 完了時に「Everything is Ok」が表示され処理が成功
 
 &emsp; 
 
-## ■重要事項：VSSDetectorとPreFAS Backupまたは7-Zip
+🎉 **`VSSDetectorを活用したバックアップ作成が完了しました！お疲れさまでした！`**
+
+&emsp; 
+
+## ■本活用ガイドにおける重要事項  
 
 ### 必須事項
 - アーカイブ完成後、7-Zip File Managerでパスワード確認とファイル一覧をチェック  
-&emsp; ※ 本ソフトウェア使用による損害や障害は、著作者が一切責任を負いません  
 
 ### 禁止事項
 - 処理中のディスククリーンアップでの「システムの復元とシャドウコピー」の削除  
@@ -268,21 +271,19 @@ set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*"
 
 ### 推奨事項
 - PreFAS Backup前に最新復元ポイントを作成  
-- パスワードを安全に保管（紛失時は復元不可）  
-
-&emsp; 
+- パスワードを適切かつ安全に保管。紛失時した場合、復元手段はありません。
 
 ## ■復元ポイントスナップショットの削除
 
-> 共同利用環境では管理者と事前相談してから実施
+> ⚠️ 共同利用環境では管理者と事前相談してから実施
 
 &emsp;1 Windowsの検索窓で「復元ポイントの作成」を検索しアクセス  
 &emsp;2 削除対象ドライブを選択し「構成」をクリック  
 &emsp;3「削除」ボタンを選択すると、スナップショットは削除されます  
 
 ## ■【 免責事項 】
+- 本手順の実行による損害や障害について、著作者は一切の責任を負いません。  
 - 重要なデータについては、必ず事前に別途バックアップを取得してから実行してください。  
 - 本バックアップは多重バックアップの一つとして作成し、単独のバックアップ手段として使用しないでください。  
-- 本手順の実行による損害や障害について、著作者は一切の責任を負いません。  
 
 以上
