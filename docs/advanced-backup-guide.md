@@ -16,7 +16,7 @@
 ## ■この活用ガイドで使用するソフト
 
 &emsp;**1. 7-Zip機能拡張版スクリプト Chall-Link「PreFAS Backup」※（GitHubから入手）**  
-&emsp;**2. 7-Zip（LGPLライセンス）（https://www.7-Zip.org/ から入手）**  
+&emsp;**2. 7-Zip（LGPLライセンス）（https://www.7-zip.org/ から入手）**  
 
 > ※ VSSDetector公開後、同時期に公開予定  
 
@@ -47,7 +47,7 @@ Chall-Link「VSSDetector」は、Windowsの隠れた機能 **VSS スナップシ
 #### ２．１．ステップ1：システムの復元機能の有効化  
 &emsp;**2.1.1 システムの復元設定画面へのアクセス**  
 &emsp;&emsp;Windowsの検索窓で「復元ポイントの作成」を検索し開きます  
-&emsp;&emsp;システムのプロパティウィンドウ／システムの保護タブが開きます  
+&emsp;&emsp;「システムのプロパティ」ウィンドウの「システムの保護」タブが開きます  
 
 &emsp;**2.1.2 【必須設定】システムドライブ（通常 C:）の保護設定**  
 &emsp;&emsp;システムの復元機能はシステムドライブ（C:）を有効にしないと他のドライブは有効にできません
@@ -65,6 +65,8 @@ Chall-Link「VSSDetector」は、Windowsの隠れた機能 **VSS スナップシ
 &nbsp;
 
 #### ２．２．ステップ2：復元ポイントの作成  
+
+> 最新状態のバックアップが欲しい場合は、復元ポイント作成からバックアップ作成までの間を空けすぎない事をお奨めします
 
 &emsp; **2.2.1 復元ポイント作成プロセスの開始**  
 &emsp; &emsp;「システムのプロパティ」ウィンドウの「システムの保護」タブの「作成」ボタンをクリック  
@@ -235,7 +237,7 @@ set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*"
 &emsp;&emsp;**除外ファイル、除外フォルダの指定**  
 &emsp;&emsp;&emsp;`set EXCLUDE=-xr!"*.tmp" -xr!"*.temp"`
 
-&emsp;**4.3.3 PreFAS-Main.batの確実な実行**  
+&emsp;**4.3.3 ChaL-PreFAS-Backup-MAIN.batの確実な実行**  
 &emsp;&emsp;右クリック → 「管理者として実行」
 
 &emsp;**4.3.4 パスワード設定**  
