@@ -164,7 +164,7 @@ Chall-Link「VSSDetector」は、Windowsの隠れた機能 **VSS スナップシ
 &emsp;**（１）「7-Zip File Manager」を管理者権限で起動**
 
 &emsp;**（２）VSSDetector「VSSパス」での直接アクセス**  
-&emsp;&emsp;7-Zip File Managerの場合は、ドライブ全体指定時パス表記の末尾の*を削除して利用してください**  
+&emsp;&emsp;7-Zip File Managerの場合は、ドライブ全体指定時パス表記の末尾の*を削除して利用してください  
 &emsp;&emsp;アドレスバーに VSSDetector「VSSパス」を入力 **（末尾の\*は除く）**  
 &emsp;&emsp;例：\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\
 
@@ -271,15 +271,15 @@ set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*"
 
 ### 推奨事項
 - PreFAS Backup前に最新復元ポイントを作成  
-- パスワードを適切かつ安全に保管。紛失時した場合、復元手段はありません。
+- パスワードを適切かつ安全に保管。紛失した場合、復元手段はありません。
 
 ## ■復元ポイントスナップショットの削除
 
 > ⚠️ 共同利用環境では管理者と事前相談してから実施
 
-&emsp;1 Windowsの検索窓で「復元ポイントの作成」を検索しアクセス  
-&emsp;2 削除対象ドライブを選択し「構成」をクリック  
-&emsp;3「削除」ボタンを選択すると、スナップショットは削除されます  
+&emsp;（１）Windowsの検索窓で「復元ポイントの作成」を検索しアクセス  
+&emsp;（２）削除対象ドライブを選択し「構成」をクリック  
+&emsp;（３）「削除」ボタンを選択すると、スナップショットは削除されます  
 
 ## ■【 免責事項 】
 - 本手順の実行による損害や障害について、著作者は一切の責任を負いません。  
