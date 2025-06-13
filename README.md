@@ -32,6 +32,9 @@
 - 必要条件: PowerShell 2.0以上（Windows標準搭載）、管理者権限、VSSサービスが有効
 - 併用推奨ソフト：Chall-Link「PreFAS」(VSSDetector公開直後に公開予定)、7-Zip（LGPLライセンス）（ https://www.7-zip.org/  から入手）
 
+> 💡 「アーカイブ」≒「圧縮」or「圧縮ファイル」
+> 💡 「スナップショット」≒「シャドーコピー」
+
 &nbsp;
 
 ## 【 画期的なブレークスルー：あなたのWindowsに眠る秘密の場所 】
