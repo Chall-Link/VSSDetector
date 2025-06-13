@@ -1,25 +1,25 @@
+:: 
+:: ï¼Šï¼Šï¼Šã€€é‡è¦ã€€ï¼Šï¼Šï¼Š
+:: ã“ã®æ—¥æœ¬èªžç‰ˆã‚¹ã‚¯ãƒªãƒ—ãƒˆã¯ GitHubã‹ã‚‰ Rawã¨ã—ã¦ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹ã¨æ”¹è¡Œã‚³ãƒ¼ãƒ‰ãŒLFã«ãªã‚Šå‹•ä½œã—ã¾ã›ã‚“ã®ã§ã”æ³¨æ„ä¸‹ã•ã„ã€‚
+:: æ­£å¸¸å‹•ä½œã™ã‚‹ãŸã‚ã«ã¯ã€æ–‡å­—ã‚³ãƒ¼ãƒ‰ãŒ Shift-JISã€æ”¹è¡Œã‚³ãƒ¼ãƒ‰ãŒ CRLFã§ã‚ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚
+:: GitHub Release ã‹ã‚‰Zipãƒ•ã‚¡ã‚¤ãƒ«ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã„ãŸã ãã¨æ­£å¸¸å‹•ä½œã™ã‚‹å½¢ã§ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã„ãŸã ã‘ã¾ã™ã€‚
 ::
-:: –––@d—v@–––
-:: ‚±‚Ì“ú–{Œê”ÅƒXƒNƒŠƒvƒg‚Í GitHub‚©‚ç Raw‚Æ‚µ‚Äƒ_ƒEƒ“ƒ[ƒh‚·‚é‚Æ‰üsƒR[ƒh‚ªLF‚É‚È‚è“®ì‚µ‚Ü‚¹‚ñ‚Ì‚Å‚²’ˆÓ‰º‚³‚¢B
-:: ³í“®ì‚·‚é‚½‚ß‚É‚ÍA•¶ŽšƒR[ƒh‚ª Shift-JISA‰üsƒR[ƒh‚ª CRLF‚Å‚ ‚é•K—v‚ª‚ ‚è‚Ü‚·B
-:: GitHub Release ‚©‚çZipƒtƒ@ƒCƒ‹‚ðƒ_ƒEƒ“ƒ[ƒh‚¢‚½‚¾‚­‚Æ³í“®ì‚·‚éŒ`‚Åƒ_ƒEƒ“ƒ[ƒh‚¢‚½‚¾‚¯‚Ü‚·B
 ::
+::ã€€ï½ž VolumeShadowCopy ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆ ãƒ‘ã‚¹å–å¾—ã‚¹ã‚¯ãƒªãƒ—ãƒˆ ï½ž
+:: ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼
+::ã€€ã€€VSSDetector æ—¥æœ¬èªžç‰ˆ Ver.1.0.0
+:: ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼ï¼
+::ã€€ã€€ã‚·ã‚¹ãƒ†ãƒ ã®å¾©å…ƒãƒã‚¤ãƒ³ãƒˆãªã©ã§ä½œæˆã•ã‚Œã‚‹ã‚·ãƒ£ãƒ‰ãƒ¼ã‚³ãƒ”ãƒ¼ã®æ­£ç¢ºãªãƒ‘ã‚¹ã‚’å–å¾—ã™ã‚‹ã€‚
+::ã€€ã€€å–å¾—ã—ãŸãƒ‘ã‚¹ã‚’ 7-Zip ãªã©ã§åœ§ç¸®å…ƒã‚½ãƒ¼ã‚¹ã«æŒ‡å®šã™ã‚‹äº‹ã§ã€ãƒ•ã‚¡ã‚¤ãƒ«ã®å¤‰æ›´ãŒèµ·ã‚‰ãªã„
+::ã€€ã€€ã‚½ãƒ¼ã‚¹ãƒ•ã‚©ãƒ«ãƒ€ã€ã‚½ãƒ¼ã‚¹ãƒ‰ãƒ©ã‚¤ãƒ–ã‚’æŒ‡å®šå¯èƒ½ã«ãªã‚‹ã€‚
 ::
-::@` VolumeShadowCopy ƒXƒiƒbƒvƒVƒ‡ƒbƒg ƒpƒXŽæ“¾ƒXƒNƒŠƒvƒg `
-:: |||||||||||||||||||||||||||||||||
-::@@VSSDetector “ú–{Œê”Å Ver.1.0.0
-:: |||||||||||||||||||||||||||||||||
-::@@ƒVƒXƒeƒ€‚Ì•œŒ³ƒ|ƒCƒ“ƒg‚È‚Ç‚Åì¬‚³‚ê‚éƒVƒƒƒh[ƒRƒs[‚Ì³Šm‚ÈƒpƒX‚ðŽæ“¾‚·‚éB
-::@@Žæ“¾‚µ‚½ƒpƒX‚ð 7-Zip ‚È‚Ç‚Åˆ³kŒ³ƒ\[ƒX‚ÉŽw’è‚·‚éŽ–‚ÅAƒtƒ@ƒCƒ‹‚Ì•ÏX‚ª‹N‚ç‚È‚¢
-::@@ƒ\[ƒXƒtƒHƒ‹ƒ_Aƒ\[ƒXƒhƒ‰ƒCƒu‚ðŽw’è‰Â”\‚É‚È‚éB
-::
-::   Copyright by Chall-LinkiƒVƒƒƒ‹ƒŠƒ“ƒNj
+::   Copyright by Chall-Linkï¼ˆã‚·ãƒ£ãƒ«ãƒªãƒ³ã‚¯ï¼‰
 ::   Developed in Japan
 ::
-:: ¦–{ƒXƒNƒŠƒvƒg‚ÍŠÇ—ŽÒŒ ŒÀ‚ÅŽÀs‚µ‚Ä‚­‚¾‚³‚¢B
+:: â€»æœ¬ã‚¹ã‚¯ãƒªãƒ—ãƒˆã¯ç®¡ç†è€…æ¨©é™ã§å®Ÿè¡Œã—ã¦ãã ã•ã„ã€‚
 ::
-:: ¥¥¥
-:: –{ƒXƒNƒŠƒvƒg‚Ì–Ú“IEŒø‰ÊE“Á’¥‚È‚Ç‚ÍAReadme-VSSDetector_Guide.txt ‚ð‚²Šm”F‚­‚¾‚³‚¢
+:: â–¼â–¼â–¼
+:: æœ¬ã‚¹ã‚¯ãƒªãƒ—ãƒˆã®ç›®çš„ãƒ»åŠ¹æžœãƒ»ç‰¹å¾´ãªã©ã¯ã€Readme-VSSDetector_Guide.txt ã‚’ã”ç¢ºèªãã ã•ã„
 ::
 
 
@@ -29,57 +29,57 @@ chcp 932 >nul 2>&1
 setlocal enabledelayedexpansion
 
 echo ===============================================
-echo ƒXƒiƒbƒvƒVƒ‡ƒbƒgŠm”Fƒc[ƒ‹iŠg’£”Åj
+echo ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆç¢ºèªãƒ„ãƒ¼ãƒ«ï¼ˆæ‹¡å¼µç‰ˆï¼‰
 echo ===============================================
-echo ƒVƒXƒeƒ€‚É•Û‘¶‚³‚ê‚½ƒXƒiƒbƒvƒVƒ‡ƒbƒgˆê——‚ð•\Ž¦
-echo iƒVƒXƒeƒ€‚É•ÏX‚Í‰Á‚¦‚Ü‚¹‚ñj
+echo ã‚·ã‚¹ãƒ†ãƒ ã«ä¿å­˜ã•ã‚ŒãŸã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆä¸€è¦§ã‚’è¡¨ç¤º
+echo ï¼ˆã‚·ã‚¹ãƒ†ãƒ ã«å¤‰æ›´ã¯åŠ ãˆã¾ã›ã‚“ï¼‰
 echo.
 
-:: ŠÇ—ŽÒŒ ŒÀƒ`ƒFƒbƒN
-echo ŠÇ—ŽÒŒ ŒÀ‚ðŠm”F’†...
+:: ç®¡ç†è€…æ¨©é™ãƒã‚§ãƒƒã‚¯
+echo ç®¡ç†è€…æ¨©é™ã‚’ç¢ºèªä¸­...
 net session >nul 2>&1
 if %errorLevel% neq 0 (
-    echo [ƒGƒ‰[] ‚±‚Ìƒc[ƒ‹‚ÍŠÇ—ŽÒŒ ŒÀ‚ª•K—v‚Å‚·
-    echo ‰EƒNƒŠƒbƒN‚µ‚ÄuŠÇ—ŽÒ‚Æ‚µ‚ÄŽÀsv‚ð‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢
+    echo [ã‚¨ãƒ©ãƒ¼] ã“ã®ãƒ„ãƒ¼ãƒ«ã¯ç®¡ç†è€…æ¨©é™ãŒå¿…è¦ã§ã™
+    echo å³ã‚¯ãƒªãƒƒã‚¯ã—ã¦ã€Œç®¡ç†è€…ã¨ã—ã¦å®Ÿè¡Œã€ã‚’é¸æŠžã—ã¦ãã ã•ã„
     echo.
-    echo ”CˆÓ‚ÌƒL[‚ð‰Ÿ‚µ‚ÄI—¹...
+    echo ä»»æ„ã®ã‚­ãƒ¼ã‚’æŠ¼ã—ã¦çµ‚äº†...
     pause >nul
     popd
     exit /b 1
 )
-echo ŠÇ—ŽÒŒ ŒÀ‚ðŠm”F‚µ‚Ü‚µ‚½B
+echo ç®¡ç†è€…æ¨©é™ã‚’ç¢ºèªã—ã¾ã—ãŸã€‚
 
 echo.
-echo ƒXƒiƒbƒvƒVƒ‡ƒbƒgî•ñ‚ðŽæ“¾’†...
-echo i”•b‚©‚©‚éê‡‚ª‚ ‚è‚Ü‚·j
+echo ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆæƒ…å ±ã‚’å–å¾—ä¸­...
+echo ï¼ˆæ•°ç§’ã‹ã‹ã‚‹å ´åˆãŒã‚ã‚Šã¾ã™ï¼‰
 echo.
 
-:: vssadmino—Í‚ðˆêŽžƒtƒ@ƒCƒ‹‚ÉŽæ“¾
+:: vssadminå‡ºåŠ›ã‚’ä¸€æ™‚ãƒ•ã‚¡ã‚¤ãƒ«ã«å–å¾—
 set TEMP_FILE=%TEMP%\vssadmin_output.txt
 vssadmin list shadows > "%TEMP_FILE%" 2>&1
 
 if %errorLevel% neq 0 (
-    echo [ƒGƒ‰[] ƒXƒiƒbƒvƒVƒ‡ƒbƒgî•ñ‚ÌŽæ“¾‚ÉŽ¸”s‚µ‚Ü‚µ‚½
-    echo •œŒ³ƒ|ƒCƒ“ƒg‚ªì¬‚³‚ê‚Ä‚¢‚È‚¢‰Â”\«‚ª‚ ‚è‚Ü‚·
+    echo [ã‚¨ãƒ©ãƒ¼] ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆæƒ…å ±ã®å–å¾—ã«å¤±æ•—ã—ã¾ã—ãŸ
+    echo å¾©å…ƒãƒã‚¤ãƒ³ãƒˆãŒä½œæˆã•ã‚Œã¦ã„ãªã„å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™
     del "%TEMP_FILE%" >nul 2>&1
-    echo ”CˆÓ‚ÌƒL[‚ð‰Ÿ‚µ‚ÄI—¹...
+    echo ä»»æ„ã®ã‚­ãƒ¼ã‚’æŠ¼ã—ã¦çµ‚äº†...
     pause >nul
     popd
     exit /b 1
 )
 
-:: PowerShellƒXƒNƒŠƒvƒg‚ðì¬‚µ‚Ävssadmino—Í‚ð‰ðÍ
+:: PowerShellã‚¹ã‚¯ãƒªãƒ—ãƒˆã‚’ä½œæˆã—ã¦vssadminå‡ºåŠ›ã‚’è§£æž
 echo $ErrorActionPreference = 'Stop' > "%TEMP%\parse_shadows.ps1"
 echo $outputFile = ".\ChaL-RESULT-VSSDetector.txt" >> "%TEMP%\parse_shadows.ps1"
 echo try { >> "%TEMP%\parse_shadows.ps1"
-echo     # o—Íƒtƒ@ƒCƒ‹‚Éƒwƒbƒ_[‚ð‰Šú‰» >> "%TEMP%\parse_shadows.ps1"
+echo     # å‡ºåŠ›ãƒ•ã‚¡ã‚¤ãƒ«ã«ãƒ˜ãƒƒãƒ€ãƒ¼ã‚’åˆæœŸåŒ– >> "%TEMP%\parse_shadows.ps1"
 echo     "===============================================" ^| Out-File -FilePath $outputFile -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo     "ƒXƒiƒbƒvƒVƒ‡ƒbƒgŠm”Fƒc[ƒ‹iŠg’£”Åj" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo     "ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆç¢ºèªãƒ„ãƒ¼ãƒ«ï¼ˆæ‹¡å¼µç‰ˆï¼‰" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo     "===============================================" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo     "ƒVƒXƒeƒ€‚É•Û‘¶‚³‚ê‚½ƒXƒiƒbƒvƒVƒ‡ƒbƒgˆê——‚ð•\Ž¦" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo     "iƒVƒXƒeƒ€‚É•ÏX‚Í‰Á‚¦‚Ü‚¹‚ñj" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo     "ã‚·ã‚¹ãƒ†ãƒ ã«ä¿å­˜ã•ã‚ŒãŸã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆä¸€è¦§ã‚’è¡¨ç¤º" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo     "ï¼ˆã‚·ã‚¹ãƒ†ãƒ ã«å¤‰æ›´ã¯åŠ ãˆã¾ã›ã‚“ï¼‰" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo     "" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo     "¶¬“úŽž: $(Get-Date -Format 'yyyy/MM/dd HH:mm:ss')" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo     "ç”Ÿæˆæ—¥æ™‚: $(Get-Date -Format 'yyyy/MM/dd HH:mm:ss')" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo     "" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo     $content = Get-Content '%TEMP_FILE%' -Encoding OEM >> "%TEMP%\parse_shadows.ps1"
 echo     $shadows = @() >> "%TEMP%\parse_shadows.ps1"
@@ -87,10 +87,10 @@ echo     $currentShadow = @{} >> "%TEMP%\parse_shadows.ps1"
 echo     $globalCreationTime = $null >> "%TEMP%\parse_shadows.ps1"
 echo     foreach ($line in $content) { >> "%TEMP%\parse_shadows.ps1"
 echo         $line = $line.Trim() >> "%TEMP%\parse_shadows.ps1"
-echo         if ($line -match 'ì¬Žž: (\d{4}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})') { >> "%TEMP%\parse_shadows.ps1"
+echo         if ($line -match 'ä½œæˆæ™‚åˆ»: (\d{4}/\d{2}/\d{2} \d{2}:\d{2}:\d{2})') { >> "%TEMP%\parse_shadows.ps1"
 echo             $globalCreationTime = $matches[1] >> "%TEMP%\parse_shadows.ps1"
 echo         } >> "%TEMP%\parse_shadows.ps1"
-echo         elseif ($line -match 'ƒVƒƒƒhƒE ƒRƒs[ ID:.*\{(.+)\}') { >> "%TEMP%\parse_shadows.ps1"
+echo         elseif ($line -match 'ã‚·ãƒ£ãƒ‰ã‚¦ ã‚³ãƒ”ãƒ¼ ID:.*\{(.+)\}') { >> "%TEMP%\parse_shadows.ps1"
 echo             if ($currentShadow.Count -gt 0) { >> "%TEMP%\parse_shadows.ps1"
 echo                 $shadows += $currentShadow >> "%TEMP%\parse_shadows.ps1"
 echo             } >> "%TEMP%\parse_shadows.ps1"
@@ -98,17 +98,17 @@ echo             $currentShadow = @{} >> "%TEMP%\parse_shadows.ps1"
 echo             $currentShadow.ID = $matches[1] >> "%TEMP%\parse_shadows.ps1"
 echo             $currentShadow.CreationTime = $globalCreationTime >> "%TEMP%\parse_shadows.ps1"
 echo         } >> "%TEMP%\parse_shadows.ps1"
-echo         elseif ($line -match 'Œ³‚Ìƒ{ƒŠƒ…[ƒ€:.*\(([A-Z]):\).*Volume\{(.+)\}') { >> "%TEMP%\parse_shadows.ps1"
+echo         elseif ($line -match 'å…ƒã®ãƒœãƒªãƒ¥ãƒ¼ãƒ :.*\(([A-Z]):\).*Volume\{(.+)\}') { >> "%TEMP%\parse_shadows.ps1"
 echo             $currentShadow.DriveLetter = $matches[1] >> "%TEMP%\parse_shadows.ps1"
 echo             $currentShadow.VolumeGUID = $matches[2] >> "%TEMP%\parse_shadows.ps1"
 echo         } >> "%TEMP%\parse_shadows.ps1"
-echo         elseif ($line -match 'ƒVƒƒƒhƒE ƒRƒs[ ƒ{ƒŠƒ…[ƒ€:.*HarddiskVolumeShadowCopy(\d+)') { >> "%TEMP%\parse_shadows.ps1"
+echo         elseif ($line -match 'ã‚·ãƒ£ãƒ‰ã‚¦ ã‚³ãƒ”ãƒ¼ ãƒœãƒªãƒ¥ãƒ¼ãƒ :.*HarddiskVolumeShadowCopy(\d+)') { >> "%TEMP%\parse_shadows.ps1"
 echo             $currentShadow.CopyNumber = $matches[1] >> "%TEMP%\parse_shadows.ps1"
 echo         } >> "%TEMP%\parse_shadows.ps1"
-echo         elseif ($line -match 'ƒvƒƒoƒCƒ_[:.*''(.+)''') { >> "%TEMP%\parse_shadows.ps1"
+echo         elseif ($line -match 'ãƒ—ãƒ­ãƒã‚¤ãƒ€ãƒ¼:.*''(.+)''') { >> "%TEMP%\parse_shadows.ps1"
 echo             $currentShadow.Provider = $matches[1] >> "%TEMP%\parse_shadows.ps1"
 echo         } >> "%TEMP%\parse_shadows.ps1"
-echo         elseif ($line -match 'Ží—Þ:\s*(.+)') { >> "%TEMP%\parse_shadows.ps1"
+echo         elseif ($line -match 'ç¨®é¡ž:\s*(.+)') { >> "%TEMP%\parse_shadows.ps1"
 echo             $currentShadow.Type = $matches[1] >> "%TEMP%\parse_shadows.ps1"
 echo         } >> "%TEMP%\parse_shadows.ps1"
 echo     } >> "%TEMP%\parse_shadows.ps1"
@@ -123,8 +123,8 @@ echo     } -Descending >> "%TEMP%\parse_shadows.ps1"
 echo     $count = 0 >> "%TEMP%\parse_shadows.ps1"
 echo     foreach ($shadow in $shadows) { >> "%TEMP%\parse_shadows.ps1"
 echo         $count++ >> "%TEMP%\parse_shadows.ps1"
-echo         $copyNum = if ($shadow.CopyNumber) { $shadow.CopyNumber } else { '•s–¾' } >> "%TEMP%\parse_shadows.ps1"
-echo         $drive = if ($shadow.DriveLetter) { $shadow.DriveLetter } else { '•s–¾' } >> "%TEMP%\parse_shadows.ps1"
+echo         $copyNum = if ($shadow.CopyNumber) { $shadow.CopyNumber } else { 'ä¸æ˜Ž' } >> "%TEMP%\parse_shadows.ps1"
+echo         $drive = if ($shadow.DriveLetter) { $shadow.DriveLetter } else { 'ä¸æ˜Ž' } >> "%TEMP%\parse_shadows.ps1"
 echo         $creationTime = if ($shadow.CreationTime) { >> "%TEMP%\parse_shadows.ps1"
 echo             try { >> "%TEMP%\parse_shadows.ps1"
 echo                 $dt = [DateTime]::Parse($_.CreationTime) >> "%TEMP%\parse_shadows.ps1"
@@ -132,89 +132,89 @@ echo                 $dt.ToString('yyyy/MM/dd HH:mm:ss') >> "%TEMP%\parse_shadow
 echo             } catch { >> "%TEMP%\parse_shadows.ps1"
 echo                 $shadow.CreationTime >> "%TEMP%\parse_shadows.ps1"
 echo             } >> "%TEMP%\parse_shadows.ps1"
-echo         } else { '•s–¾' } >> "%TEMP%\parse_shadows.ps1"
-echo         $type = if ($shadow.Type) { $shadow.Type } else { '•s–¾' } >> "%TEMP%\parse_shadows.ps1"
-echo         $creatorType = '•s–¾' >> "%TEMP%\parse_shadows.ps1"
+echo         } else { 'ä¸æ˜Ž' } >> "%TEMP%\parse_shadows.ps1"
+echo         $type = if ($shadow.Type) { $shadow.Type } else { 'ä¸æ˜Ž' } >> "%TEMP%\parse_shadows.ps1"
+echo         $creatorType = 'ä¸æ˜Ž' >> "%TEMP%\parse_shadows.ps1"
 echo         if ($type -eq 'ClientAccessibleWriters') { >> "%TEMP%\parse_shadows.ps1"
-echo             $creatorType = 'ƒVƒXƒeƒ€•œŒ³ƒ|ƒCƒ“ƒg' >> "%TEMP%\parse_shadows.ps1"
+echo             $creatorType = 'ã‚·ã‚¹ãƒ†ãƒ å¾©å…ƒãƒã‚¤ãƒ³ãƒˆ' >> "%TEMP%\parse_shadows.ps1"
 echo         } elseif ($shadow.Provider -like '*System*') { >> "%TEMP%\parse_shadows.ps1"
-echo             $creatorType = 'ƒVƒXƒeƒ€ƒoƒbƒNƒAƒbƒv' >> "%TEMP%\parse_shadows.ps1"
+echo             $creatorType = 'ã‚·ã‚¹ãƒ†ãƒ ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—' >> "%TEMP%\parse_shadows.ps1"
 echo         } elseif ($shadow.Provider -like '*Microsoft*') { >> "%TEMP%\parse_shadows.ps1"
-echo             $creatorType = 'MicrosoftƒT[ƒrƒX' >> "%TEMP%\parse_shadows.ps1"
+echo             $creatorType = 'Microsoftã‚µãƒ¼ãƒ“ã‚¹' >> "%TEMP%\parse_shadows.ps1"
 echo         } else { >> "%TEMP%\parse_shadows.ps1"
-echo             $creatorType = 'ƒT[ƒhƒp[ƒeƒBƒoƒbƒNƒAƒbƒv' >> "%TEMP%\parse_shadows.ps1"
+echo             $creatorType = 'ã‚µãƒ¼ãƒ‰ãƒ‘ãƒ¼ãƒ†ã‚£ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—' >> "%TEMP%\parse_shadows.ps1"
 echo         } >> "%TEMP%\parse_shadows.ps1"
-echo         Write-Host "[$count] HarddiskVolumeShadowCopy$copyNum (ƒhƒ‰ƒCƒu $drive`:)" >> "%TEMP%\parse_shadows.ps1"
-echo         Write-Host "    ì¬“úŽž: $creationTime" >> "%TEMP%\parse_shadows.ps1"
-echo         Write-Host "    Ží—Þ: $creatorType" >> "%TEMP%\parse_shadows.ps1"
-echo         Write-Host "    ƒhƒ‰ƒCƒu‘S‘ÌŽw’èŽžƒpƒX•\‹L: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy$copyNum\*" >> "%TEMP%\parse_shadows.ps1"
-echo         Write-Host "    ƒtƒHƒ‹ƒ_Žw’èŽžƒpƒX•\‹L: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy$copyNum\(ƒtƒHƒ‹ƒ_–¼)" >> "%TEMP%\parse_shadows.ps1"
+echo         Write-Host "[$count] HarddiskVolumeShadowCopy$copyNum (ãƒ‰ãƒ©ã‚¤ãƒ– $drive`:)" >> "%TEMP%\parse_shadows.ps1"
+echo         Write-Host "    ä½œæˆæ—¥æ™‚: $creationTime" >> "%TEMP%\parse_shadows.ps1"
+echo         Write-Host "    ç¨®é¡ž: $creatorType" >> "%TEMP%\parse_shadows.ps1"
+echo         Write-Host "    ãƒ‰ãƒ©ã‚¤ãƒ–å…¨ä½“æŒ‡å®šæ™‚ãƒ‘ã‚¹è¡¨è¨˜: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy$copyNum\*" >> "%TEMP%\parse_shadows.ps1"
+echo         Write-Host "    ãƒ•ã‚©ãƒ«ãƒ€æŒ‡å®šæ™‚ãƒ‘ã‚¹è¡¨è¨˜: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy$copyNum\(ãƒ•ã‚©ãƒ«ãƒ€å)" >> "%TEMP%\parse_shadows.ps1"
 echo         Write-Host '' >> "%TEMP%\parse_shadows.ps1"
-echo         "[$count] HarddiskVolumeShadowCopy$copyNum (ƒhƒ‰ƒCƒu $drive`:)" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "    ì¬“úŽž: $creationTime" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "    Ží—Þ: $creatorType" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "    ƒhƒ‰ƒCƒu‘S‘ÌŽw’èŽžƒpƒX•\‹L: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy$copyNum\*" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "    ƒtƒHƒ‹ƒ_Žw’èŽžƒpƒX•\‹L: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy$copyNum\(ƒtƒHƒ‹ƒ_–¼)" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "[$count] HarddiskVolumeShadowCopy$copyNum (ãƒ‰ãƒ©ã‚¤ãƒ– $drive`:)" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "    ä½œæˆæ—¥æ™‚: $creationTime" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "    ç¨®é¡ž: $creatorType" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "    ãƒ‰ãƒ©ã‚¤ãƒ–å…¨ä½“æŒ‡å®šæ™‚ãƒ‘ã‚¹è¡¨è¨˜: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy$copyNum\*" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "    ãƒ•ã‚©ãƒ«ãƒ€æŒ‡å®šæ™‚ãƒ‘ã‚¹è¡¨è¨˜: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy$copyNum\(ãƒ•ã‚©ãƒ«ãƒ€å)" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo         "" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo     } >> "%TEMP%\parse_shadows.ps1"
 echo     if ($count -eq 0) { >> "%TEMP%\parse_shadows.ps1"
-echo         Write-Host '[î•ñ] —˜—p‰Â”\‚ÈƒXƒiƒbƒvƒVƒ‡ƒbƒg‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ‚Å‚µ‚½' >> "%TEMP%\parse_shadows.ps1"
-echo         Write-Host 'ƒVƒXƒeƒ€‚Ì•œŒ³‚ª–³Œø‚©AƒXƒiƒbƒvƒVƒ‡ƒbƒg‚ª‘¶Ý‚µ‚Ü‚¹‚ñ' >> "%TEMP%\parse_shadows.ps1"
-echo         '[î•ñ] —˜—p‰Â”\‚ÈƒXƒiƒbƒvƒVƒ‡ƒbƒg‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ‚Å‚µ‚½' ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         'ƒVƒXƒeƒ€‚Ì•œŒ³‚ª–³Œø‚©AƒXƒiƒbƒvƒVƒ‡ƒbƒg‚ª‘¶Ý‚µ‚Ü‚¹‚ñ' ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         Write-Host '[æƒ…å ±] åˆ©ç”¨å¯èƒ½ãªã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“ã§ã—ãŸ' >> "%TEMP%\parse_shadows.ps1"
+echo         Write-Host 'ã‚·ã‚¹ãƒ†ãƒ ã®å¾©å…ƒãŒç„¡åŠ¹ã‹ã€ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆãŒå­˜åœ¨ã—ã¾ã›ã‚“' >> "%TEMP%\parse_shadows.ps1"
+echo         '[æƒ…å ±] åˆ©ç”¨å¯èƒ½ãªã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“ã§ã—ãŸ' ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         'ã‚·ã‚¹ãƒ†ãƒ ã®å¾©å…ƒãŒç„¡åŠ¹ã‹ã€ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆãŒå­˜åœ¨ã—ã¾ã›ã‚“' ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo     } else { >> "%TEMP%\parse_shadows.ps1"
 echo         Write-Host '===============================================' >> "%TEMP%\parse_shadows.ps1"
-echo         Write-Host "‡Œv $count ŒÂ‚ÌƒXƒiƒbƒvƒVƒ‡ƒbƒg‚ªŒ©‚Â‚©‚è‚Ü‚µ‚½" >> "%TEMP%\parse_shadows.ps1"
+echo         Write-Host "åˆè¨ˆ $count å€‹ã®ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆãŒè¦‹ã¤ã‹ã‚Šã¾ã—ãŸ" >> "%TEMP%\parse_shadows.ps1"
 echo         '===============================================' ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "‡Œv $count ŒÂ‚ÌƒXƒiƒbƒvƒVƒ‡ƒbƒg‚ªŒ©‚Â‚©‚è‚Ü‚µ‚½" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "åˆè¨ˆ $count å€‹ã®ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆãŒè¦‹ã¤ã‹ã‚Šã¾ã—ãŸ" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo         "" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "[PreFAS‚Å‚ÌŽg—p•û–@]" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "ã‹L‚ÌƒpƒXŒ`Ž®‚ðƒRƒs[‚µ‚ÄAPreFASÝ’è‚ÉŽg—p‚µ‚Ä‚­‚¾‚³‚¢B" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "ƒhƒ‰ƒCƒu‘S‘Ì‚ÌƒoƒbƒNƒAƒbƒv‚É‚Íuƒhƒ‰ƒCƒu‘S‘ÌŽw’èŽžƒpƒX•\‹Lv‚ðŽg—p" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "“Á’èƒtƒHƒ‹ƒ_‚É‚ÍuƒtƒHƒ‹ƒ_Žw’èŽžƒpƒX•\‹Lv‚ðŽg—p‚µA(ƒtƒHƒ‹ƒ_–¼)‚ðŽÀÛ‚ÌƒtƒHƒ‹ƒ_–¼‚É’u‚«Š·‚¦" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "[PreFASã§ã®ä½¿ç”¨æ–¹æ³•]" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "ä¸Šè¨˜ã®ãƒ‘ã‚¹å½¢å¼ã‚’ã‚³ãƒ”ãƒ¼ã—ã¦ã€PreFASè¨­å®šã«ä½¿ç”¨ã—ã¦ãã ã•ã„ã€‚" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "ãƒ‰ãƒ©ã‚¤ãƒ–å…¨ä½“ã®ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ã«ã¯ã€Œãƒ‰ãƒ©ã‚¤ãƒ–å…¨ä½“æŒ‡å®šæ™‚ãƒ‘ã‚¹è¡¨è¨˜ã€ã‚’ä½¿ç”¨" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "ç‰¹å®šãƒ•ã‚©ãƒ«ãƒ€ã«ã¯ã€Œãƒ•ã‚©ãƒ«ãƒ€æŒ‡å®šæ™‚ãƒ‘ã‚¹è¡¨è¨˜ã€ã‚’ä½¿ç”¨ã—ã€(ãƒ•ã‚©ãƒ«ãƒ€å)ã‚’å®Ÿéš›ã®ãƒ•ã‚©ãƒ«ãƒ€åã«ç½®ãæ›ãˆ" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo         "" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "[d‘å‚ÈŒx]" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "7-ZipŽÀs’†‚ÉV‚µ‚¢•œŒ³ƒ|ƒCƒ“ƒg‚ðì¬‚µ‚È‚¢‚Å‚­‚¾‚³‚¢I" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "ƒXƒiƒbƒvƒVƒ‡ƒbƒg‚ª–³Œø‚É‚È‚èAƒA[ƒJƒCƒu‚ª”j‘¹‚·‚é‰Â”\«‚ª‚ ‚è‚Ü‚·B" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "[é‡å¤§ãªè­¦å‘Š]" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "7-Zipå®Ÿè¡Œä¸­ã«æ–°ã—ã„å¾©å…ƒãƒã‚¤ãƒ³ãƒˆã‚’ä½œæˆã—ãªã„ã§ãã ã•ã„ï¼" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆãŒç„¡åŠ¹ã«ãªã‚Šã€ã‚¢ãƒ¼ã‚«ã‚¤ãƒ–ãŒç ´æã™ã‚‹å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™ã€‚" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo         "" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "[d—v‚È’ˆÓŽ–€]" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "- ƒhƒ‰ƒCƒu‘S‘Ì‚Ìê‡: ––”ö‚Éu\*\v‚ð•K‚¸•t‚¯‚é" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "- ƒtƒHƒ‹ƒ_‚Ìê‡: (ƒtƒHƒ‹ƒ_–¼)‚ðŽÀÛ‚ÌƒtƒHƒ‹ƒ_–¼‚É’u‚«Š·‚¦iƒƒCƒ‹ƒhƒJ[ƒh•s—vj" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "- ƒoƒbƒNƒAƒbƒv’†‚ÉƒfƒBƒXƒNƒNƒŠ[ƒ“ƒAƒbƒv‚âƒVƒXƒeƒ€ƒƒ“ƒeƒiƒ“ƒX‚ðŽÀs‚µ‚È‚¢" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "- ŒÃ‚¢ƒXƒiƒbƒvƒVƒ‡ƒbƒg‚ÍŽ©“®“I‚Éíœ‚³‚ê‚éê‡‚ª‚ ‚é" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "- ˆ³k’†‚ÉPC‚ðƒVƒƒƒbƒgƒ_ƒEƒ“‚µ‚È‚¢" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "- ÅV‚ÌƒXƒiƒbƒvƒVƒ‡ƒbƒg‚ªÅ‰‚É•\Ž¦‚³‚ê‚Ü‚·" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "[é‡è¦ãªæ³¨æ„äº‹é …]" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "- ãƒ‰ãƒ©ã‚¤ãƒ–å…¨ä½“ã®å ´åˆ: æœ«å°¾ã«ã€Œ\*\ã€ã‚’å¿…ãšä»˜ã‘ã‚‹" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "- ãƒ•ã‚©ãƒ«ãƒ€ã®å ´åˆ: (ãƒ•ã‚©ãƒ«ãƒ€å)ã‚’å®Ÿéš›ã®ãƒ•ã‚©ãƒ«ãƒ€åã«ç½®ãæ›ãˆï¼ˆãƒ¯ã‚¤ãƒ«ãƒ‰ã‚«ãƒ¼ãƒ‰ä¸è¦ï¼‰" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "- ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ä¸­ã«ãƒ‡ã‚£ã‚¹ã‚¯ã‚¯ãƒªãƒ¼ãƒ³ã‚¢ãƒƒãƒ—ã‚„ã‚·ã‚¹ãƒ†ãƒ ãƒ¡ãƒ³ãƒ†ãƒŠãƒ³ã‚¹ã‚’å®Ÿè¡Œã—ãªã„" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "- å¤ã„ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆã¯è‡ªå‹•çš„ã«å‰Šé™¤ã•ã‚Œã‚‹å ´åˆãŒã‚ã‚‹" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "- åœ§ç¸®ä¸­ã«PCã‚’ã‚·ãƒ£ãƒƒãƒˆãƒ€ã‚¦ãƒ³ã—ãªã„" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "- æœ€æ–°ã®ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆãŒæœ€åˆã«è¡¨ç¤ºã•ã‚Œã¾ã™" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo     } >> "%TEMP%\parse_shadows.ps1"
 echo } catch { >> "%TEMP%\parse_shadows.ps1"
-echo     Write-Host '[ƒGƒ‰[] ƒXƒiƒbƒvƒVƒ‡ƒbƒgî•ñ‚Ì‰ðÍ‚ÉŽ¸”s‚µ‚Ü‚µ‚½' -ForegroundColor Red >> "%TEMP%\parse_shadows.ps1"
-echo     Write-Host "ƒGƒ‰[Ú×: $($_.Exception.Message)" -ForegroundColor Red >> "%TEMP%\parse_shadows.ps1"
-echo     Write-Host 'vssadmin‚Ì¶o—Í‚ð•\Ž¦:' -ForegroundColor Yellow >> "%TEMP%\parse_shadows.ps1"
+echo     Write-Host '[ã‚¨ãƒ©ãƒ¼] ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆæƒ…å ±ã®è§£æžã«å¤±æ•—ã—ã¾ã—ãŸ' -ForegroundColor Red >> "%TEMP%\parse_shadows.ps1"
+echo     Write-Host "ã‚¨ãƒ©ãƒ¼è©³ç´°: $($_.Exception.Message)" -ForegroundColor Red >> "%TEMP%\parse_shadows.ps1"
+echo     Write-Host 'vssadminã®ç”Ÿå‡ºåŠ›ã‚’è¡¨ç¤º:' -ForegroundColor Yellow >> "%TEMP%\parse_shadows.ps1"
 echo     Write-Host '' >> "%TEMP%\parse_shadows.ps1"
 echo     Get-Content '%TEMP_FILE%' -Encoding OEM >> "%TEMP%\parse_shadows.ps1"
 echo } >> "%TEMP%\parse_shadows.ps1"
 
-:: o—Íƒtƒ@ƒCƒ‹ƒpƒX‚ðÝ’è
+:: å‡ºåŠ›ãƒ•ã‚¡ã‚¤ãƒ«ãƒ‘ã‚¹ã‚’è¨­å®š
 set OUTPUT_FILE=%~dp0ChaL-RESULT-VSSDetector.txt
 
-:: ƒtƒ@ƒCƒ‹o—Í‚Ì‚½‚ßƒXƒNƒŠƒvƒgƒfƒBƒŒƒNƒgƒŠ‚ÉˆÚ“®
+:: ãƒ•ã‚¡ã‚¤ãƒ«å‡ºåŠ›ã®ãŸã‚ã‚¹ã‚¯ãƒªãƒ—ãƒˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«ç§»å‹•
 pushd "%~dp0"
 
-:: PowerShellƒXƒNƒŠƒvƒg‚ðŽÀs
+:: PowerShellã‚¹ã‚¯ãƒªãƒ—ãƒˆã‚’å®Ÿè¡Œ
 powershell -NoProfile -ExecutionPolicy Bypass -File "%TEMP%\parse_shadows.ps1"
 set PS_EXIT_CODE=%errorLevel%
 
-:: Œ³‚ÌƒfƒBƒŒƒNƒgƒŠ‚É–ß‚é
+:: å…ƒã®ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«æˆ»ã‚‹
 popd
 
-:: ˆêŽžƒtƒ@ƒCƒ‹‚ðƒNƒŠ[ƒ“ƒAƒbƒv
+:: ä¸€æ™‚ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚¯ãƒªãƒ¼ãƒ³ã‚¢ãƒƒãƒ—
 del "%TEMP_FILE%" >nul 2>&1
 del "%TEMP%\parse_shadows.ps1" >nul 2>&1
 
 if %PS_EXIT_CODE% neq 0 (
     echo.
-    echo [ƒGƒ‰[] PowerShellƒXƒNƒŠƒvƒg‚ÌŽÀs‚ÉŽ¸”s‚µ‚Ü‚µ‚½iI—¹ƒR[ƒh: %PS_EXIT_CODE%j
+    echo [ã‚¨ãƒ©ãƒ¼] PowerShellã‚¹ã‚¯ãƒªãƒ—ãƒˆã®å®Ÿè¡Œã«å¤±æ•—ã—ã¾ã—ãŸï¼ˆçµ‚äº†ã‚³ãƒ¼ãƒ‰: %PS_EXIT_CODE%ï¼‰
     echo.
-    echo ƒtƒH[ƒ‹ƒoƒbƒN•ûŽ®‚ðŽŽ‚Ý‚Ü‚·...
+    echo ãƒ•ã‚©ãƒ¼ãƒ«ãƒãƒƒã‚¯æ–¹å¼ã‚’è©¦ã¿ã¾ã™...
     echo.
     vssadmin list shadows
 )
@@ -222,30 +222,30 @@ if %PS_EXIT_CODE% neq 0 (
 echo.
 echo ===============================================
 echo.
-echo [PreFAS‚Å‚ÌŽg—p•û–@]
-echo ã‹L‚ÌƒpƒXŒ`Ž®‚ðƒRƒs[‚µ‚ÄAPreFASÝ’è‚ÉŽg—p‚µ‚Ä‚­‚¾‚³‚¢B
-echo ƒhƒ‰ƒCƒu‘S‘Ì‚ÌƒoƒbƒNƒAƒbƒv‚É‚Íuƒhƒ‰ƒCƒu‘S‘ÌŽw’èŽžƒpƒX•\‹Lv‚ðŽg—p
-echo “Á’èƒtƒHƒ‹ƒ_‚É‚ÍuƒtƒHƒ‹ƒ_Žw’èŽžƒpƒX•\‹Lv‚ðŽg—p‚µA(ƒtƒHƒ‹ƒ_–¼)‚ðŽÀÛ‚ÌƒtƒHƒ‹ƒ_–¼‚É’u‚«Š·‚¦
+echo [PreFASã§ã®ä½¿ç”¨æ–¹æ³•]
+echo ä¸Šè¨˜ã®ãƒ‘ã‚¹å½¢å¼ã‚’ã‚³ãƒ”ãƒ¼ã—ã¦ã€PreFASè¨­å®šã«ä½¿ç”¨ã—ã¦ãã ã•ã„ã€‚
+echo ãƒ‰ãƒ©ã‚¤ãƒ–å…¨ä½“ã®ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ã«ã¯ã€Œãƒ‰ãƒ©ã‚¤ãƒ–å…¨ä½“æŒ‡å®šæ™‚ãƒ‘ã‚¹è¡¨è¨˜ã€ã‚’ä½¿ç”¨
+echo ç‰¹å®šãƒ•ã‚©ãƒ«ãƒ€ã«ã¯ã€Œãƒ•ã‚©ãƒ«ãƒ€æŒ‡å®šæ™‚ãƒ‘ã‚¹è¡¨è¨˜ã€ã‚’ä½¿ç”¨ã—ã€(ãƒ•ã‚©ãƒ«ãƒ€å)ã‚’å®Ÿéš›ã®ãƒ•ã‚©ãƒ«ãƒ€åã«ç½®ãæ›ãˆ
 echo.
-echo [d‘å‚ÈŒx]
-echo 7-ZipŽÀs’†‚ÉV‚µ‚¢•œŒ³ƒ|ƒCƒ“ƒg‚ðì¬‚µ‚È‚¢‚Å‚­‚¾‚³‚¢I
-echo ƒXƒiƒbƒvƒVƒ‡ƒbƒg‚ª–³Œø‚É‚È‚èAƒA[ƒJƒCƒu‚ª”j‘¹‚·‚é‰Â”\«‚ª‚ ‚è‚Ü‚·B
+echo [é‡å¤§ãªè­¦å‘Š]
+echo 7-Zipå®Ÿè¡Œä¸­ã«æ–°ã—ã„å¾©å…ƒãƒã‚¤ãƒ³ãƒˆã‚’ä½œæˆã—ãªã„ã§ãã ã•ã„ï¼
+echo ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆãŒç„¡åŠ¹ã«ãªã‚Šã€ã‚¢ãƒ¼ã‚«ã‚¤ãƒ–ãŒç ´æã™ã‚‹å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™ã€‚
 echo.
-echo [d—v‚È’ˆÓŽ–€]
-echo - ƒhƒ‰ƒCƒu‘S‘Ì‚Ìê‡: ––”ö‚Éu\*\v‚ð•K‚¸•t‚¯‚é
-echo - ƒtƒHƒ‹ƒ_‚Ìê‡: (ƒtƒHƒ‹ƒ_–¼)‚ðŽÀÛ‚ÌƒtƒHƒ‹ƒ_–¼‚É’u‚«Š·‚¦iƒƒCƒ‹ƒhƒJ[ƒh•s—vj
-echo - ƒoƒbƒNƒAƒbƒv’†‚ÉƒfƒBƒXƒNƒNƒŠ[ƒ“ƒAƒbƒv‚âƒVƒXƒeƒ€ƒƒ“ƒeƒiƒ“ƒX‚ðŽÀs‚µ‚È‚¢
-echo - ŒÃ‚¢ƒXƒiƒbƒvƒVƒ‡ƒbƒg‚ÍŽ©“®“I‚Éíœ‚³‚ê‚éê‡‚ª‚ ‚é
-echo - ˆ³k’†‚ÉPC‚ðƒVƒƒƒbƒgƒ_ƒEƒ“‚µ‚È‚¢
-echo - ÅV‚ÌƒXƒiƒbƒvƒVƒ‡ƒbƒg‚ªÅ‰‚É•\Ž¦‚³‚ê‚Ü‚·
+echo [é‡è¦ãªæ³¨æ„äº‹é …]
+echo - ãƒ‰ãƒ©ã‚¤ãƒ–å…¨ä½“ã®å ´åˆ: æœ«å°¾ã«ã€Œ\*\ã€ã‚’å¿…ãšä»˜ã‘ã‚‹
+echo - ãƒ•ã‚©ãƒ«ãƒ€ã®å ´åˆ: (ãƒ•ã‚©ãƒ«ãƒ€å)ã‚’å®Ÿéš›ã®ãƒ•ã‚©ãƒ«ãƒ€åã«ç½®ãæ›ãˆï¼ˆãƒ¯ã‚¤ãƒ«ãƒ‰ã‚«ãƒ¼ãƒ‰ä¸è¦ï¼‰
+echo - ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ä¸­ã«ãƒ‡ã‚£ã‚¹ã‚¯ã‚¯ãƒªãƒ¼ãƒ³ã‚¢ãƒƒãƒ—ã‚„ã‚·ã‚¹ãƒ†ãƒ ãƒ¡ãƒ³ãƒ†ãƒŠãƒ³ã‚¹ã‚’å®Ÿè¡Œã—ãªã„
+echo - å¤ã„ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆã¯è‡ªå‹•çš„ã«å‰Šé™¤ã•ã‚Œã‚‹å ´åˆãŒã‚ã‚‹
+echo - åœ§ç¸®ä¸­ã«PCã‚’ã‚·ãƒ£ãƒƒãƒˆãƒ€ã‚¦ãƒ³ã—ãªã„
+echo - æœ€æ–°ã®ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆãŒæœ€åˆã«è¡¨ç¤ºã•ã‚Œã¾ã™
 echo.
-echo [î•ñ] ƒXƒiƒbƒvƒVƒ‡ƒbƒgî•ñ‚ÍˆÈ‰º‚É•Û‘¶‚³‚ê‚Ü‚µ‚½: ChaL-RESULT-VSSDetector.txt
+echo [æƒ…å ±] ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆæƒ…å ±ã¯ä»¥ä¸‹ã«ä¿å­˜ã•ã‚Œã¾ã—ãŸ: ChaL-RESULT-VSSDetector.txt
 echo.
 echo    If Moji-Bake: Check If bat file is S-JIS.
 echo.
 echo ===============================================
-echo ƒXƒNƒŠƒvƒg‚ÌŽÀs‚ªŠ®—¹‚µ‚Ü‚µ‚½B
-echo ”CˆÓ‚ÌƒL[‚ð‰Ÿ‚µ‚ÄI—¹...
+echo ã‚¹ã‚¯ãƒªãƒ—ãƒˆã®å®Ÿè¡ŒãŒå®Œäº†ã—ã¾ã—ãŸã€‚
+echo ä»»æ„ã®ã‚­ãƒ¼ã‚’æŠ¼ã—ã¦çµ‚äº†...
 echo.
 pause >nul
 popd
