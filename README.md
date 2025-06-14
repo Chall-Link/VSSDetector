@@ -10,8 +10,8 @@
 **【種別】** フリーソフトウェア  
 
 =================================================
-> 💡 「アーカイブ」≒「圧縮」or「圧縮ファイル」
-> 💡 「スナップショット」≒「シャドーコピー」
+> 💡 本ドキュメントでは「アーカイブ」「バックアップ」「圧縮」をほぼ同じ意味として混在使用しています  
+> 💡 「スナップショット」は「シャドーコピー」とも呼ばれます
 > 
 &nbsp;
 
@@ -23,9 +23,8 @@ Chall-Link「VSSDetector」を使えば、Windowsのスナップショット＝�
 &nbsp;
 
 ## ■ 動作環境
-
-- **文字コード・改行コード**: 本スクリプトは日本語対応のWindowsスクリプトで、Shift-JISエンコーディングとCRLF改行コードでなければ正常に動作しません。  
-  [GitHub Release](https://github.com/Chall-Link/VSSDetector/releases)掲載の「Source code (zip)」をダウンロードすると適切な形でダウンロードできますが、一方で GitHubのRawダウンロードでダウンロードすると改行コードがLFになり動作しませんのでご注意ください。 
+- **ダウンロードリンク**:  [VSSDetector-GitHub Release](https://github.com/Chall-Link/VSSDetector/releases)掲載の「Source code (zip)」をダウンロードしてください。GitHubの Rawダウンロード でダウンロードすると改行コードがLFになり動作しませんのでご注意ください。 
+- **文字コード・改行コード**: 本スクリプトは日本語対応のWindowsスクリプトで、Shift-JISエンコーディングとCRLF改行コードでなければ正常に動作しません。
 - Windows 10 Pro 64bit（動作確認済み）、理論上はWindows 7 SP1以上で動作可能（未確認のため自己責任でテスト推奨）
 - **必要条件**: PowerShell 2.0以上（Windows標準搭載）、管理者権限、VSSサービスが有効
 - **併用推奨ソフト**: Chall-Link「PreFAS Backup」（[PreFAS Backup-GitHub Release](https://github.com/Chall-Link/PreFAS-Backup/releases) 掲載の「Source code (zip)」から入手 
