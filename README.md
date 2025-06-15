@@ -7,12 +7,23 @@
 
 **【著作権者】** Chall-Link（シャルリンク）  
 **【開発地】** Developed in Japan  
-**【種別】** フリーソフトウェア  
+**【ライセンス】** MIT License  
+**【種別】** フリーソフトウェア（オープンソース）  
 
 =================================================
 > 💡 本ドキュメントでは「アーカイブ」「バックアップ」「圧縮」をほぼ同じ意味として混在使用しています  
 > 💡 「スナップショット」は「シャドーコピー」とも呼ばれます
 > 
+
+&emsp; 
+
+## ファイル構成
+VSSDetector/
+├── ChaL-VSSDetector.bat          # メインスクリプト
+├── README.md                     # 説明書（本ファイル）
+└── docs/
+    └── advanced-backup-guide.md  # 活用ガイド
+
 &nbsp;
 
 ## ■概要：画期的なブレークスルー：あなたのWindowsに眠る秘密の場所
@@ -25,7 +36,7 @@ Chall-Link「VSSDetector」を使えば、Windowsのスナップショット＝�
 ## ■ 動作環境
 - **ダウンロードリンク**:  [VSSDetector-GitHub Release](https://github.com/Chall-Link/VSSDetector/releases)掲載の「Source code (zip)」をダウンロードしてください。GitHubの Rawダウンロード でダウンロードすると改行コードがLFになり動作しませんのでご注意ください。 
 - **文字コード・改行コード**: 本スクリプトは日本語対応のWindowsスクリプトで、Shift-JISエンコーディングとCRLF改行コードでなければ正常に動作しません。
-- Windows 10 Pro 64bit（動作確認済み）、理論上はWindows 7 SP1以上で動作可能（未確認のため自己責任でテスト推奨）
+- Windows10 Pro 64bit（動作確認済み）、理論上はWindows7 SP1以上で動作可能（未確認のため自己責任でテスト推奨）
 - **必要条件**: PowerShell 2.0以上（Windows標準搭載）、管理者権限、VSSサービスが有効
 - **併用推奨ソフト**: Chall-Link「PreFAS Backup」（[PreFAS Backup-GitHub Release](https://github.com/Chall-Link/PreFAS-Backup/releases) 掲載の「Source code (zip)」から入手 
 ）、7-Zip（LGPLライセンス）（ https://www.7-zip.org/  から入手）
@@ -191,6 +202,7 @@ Chall-Link「VSSDetector」は、様々な分野に応用可能です
 本ソフトウェアはフリーソフトウェア（MITライセンス）です。著作権はChall-Linkに帰属します。
 本ソフトウェアの使用による損害や障害について、著作者は一切の責任を負いません。  
 転載・配布は自由ですが、出典として『Chall-Link「VSSDetector」』を明記してください。
+
 ご意見・ご感想はGitHubリポジトリの [Issues](https://github.com/Chall-Link/VSSDetector/issues) にてお願いします。  
 ただし個別サポートや返信は行っておりません。
 
