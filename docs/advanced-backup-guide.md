@@ -21,6 +21,7 @@
 
 &nbsp;
 
+---
 ## ■概要：このガイドについて
 Chall-Link「VSSDetector」は、Windowsの隠れた機能 **VSS スナップショット**＝ある時点で変更されない形で保存されているドライブの状態を一般ユーザーが自由に再利用できるよう機能解放します
 
@@ -28,6 +29,7 @@ Chall-Link「VSSDetector」は、Windowsの隠れた機能 **VSS スナップシ
 
 &nbsp;
 
+---
 ## ■手順：具体的な使用例
 
 ### １．目標：VSSスナップショット内のフォルダをアーカイブソースとして 7-Zipアーカイブを作成  
@@ -257,6 +259,7 @@ set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*"
 
 &emsp; 
 
+---
 ## ■本活用ガイドにおける重要事項  
 
 ### 必須事項
@@ -272,6 +275,7 @@ set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*"
 - PreFAS Backup前に最新復元ポイントを作成  
 - パスワードを適切かつ安全に保管。紛失した場合、復元できません。
 
+---
 ## ■復元ポイントスナップショットの削除
 
 > ⚠️ 共同利用環境では管理者と事前相談してから実施
@@ -280,6 +284,7 @@ set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*"
 &emsp;（２）削除対象ドライブを選択し「構成」をクリック  
 &emsp;（３）「削除」ボタンを選択すると、スナップショットは削除されます  
 
+---
 ## ■【 免責事項 】
 - 本手順の実行による損害や障害について、著作者は一切の責任を負いません。  
 - 重要なデータについては、必ず事前に別途バックアップを取得してから実行してください。  
