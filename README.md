@@ -18,11 +18,11 @@
 &emsp; 
 
 ## ファイル構成
-VSSDetector/
-├── ChaL-VSSDetector.bat          # メインスクリプト
-├── README.md                     # 説明書（本ファイル）
-└── docs/
-    └── advanced-backup-guide.md  # 活用ガイド
+VSSDetector/  
+├── ChaL-VSSDetector.bat          # メインスクリプト  
+├── README.md                     # 説明書（本ファイル）  
+└── docs/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── advanced-backup-guide.md  # 活用ガイド  
 
 &nbsp;
 
@@ -204,7 +204,8 @@ Chall-Link「VSSDetector」は、様々な分野に応用可能です
 転載・配布は自由ですが、出典として『Chall-Link「VSSDetector」』を明記してください。
 
 ご意見・ご感想はGitHubリポジトリの [Issues](https://github.com/Chall-Link/VSSDetector/issues) にてお願いします。  
-ただし個別サポートや返信は行っておりません。
+コードレビューや改善提案も歓迎いたします。  
+ただし個別サポートや返信は行っておりません。  
 
 &nbsp;
 
