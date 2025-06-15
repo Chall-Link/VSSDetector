@@ -16,6 +16,7 @@
 
 &emsp; 
 
+---
 ## ■ファイル構成
 VSSDetector/  
 ├── ChaL-VSSDetector.bat          # メインスクリプト  
@@ -25,6 +26,7 @@ VSSDetector/
 
 &nbsp;
 
+---
 ## ■概要：画期的なブレークスルー：あなたのWindowsに眠る秘密の場所
 
 Chall-Link「VSSDetector」を使えば、Windowsのスナップショット＝「過去の任意の時点での静的な（変化しない）ドライブ／フォルダ／ファイル」に7-zipなどのソフトウェアから誰でも簡単に直接アクセスできるようになります。
@@ -32,6 +34,7 @@ Chall-Link「VSSDetector」を使えば、Windowsのスナップショット＝�
 
 &nbsp;
 
+---
 ## ■ 動作環境
 - **ダウンロードリンク**:  [VSSDetector-GitHub Release](https://github.com/Chall-Link/VSSDetector/releases)掲載の「Source code (zip)」をダウンロードしてください。GitHubの Rawダウンロード でダウンロードすると改行コードがLFになり動作しませんのでご注意ください。 
 - **文字コード・改行コード**: 本スクリプトは日本語対応のWindowsスクリプトで、Shift-JISエンコーディングとCRLF改行コードでなければ正常に動作しません。
@@ -42,6 +45,7 @@ Chall-Link「VSSDetector」を使えば、Windowsのスナップショット＝�
 
 &nbsp;
 
+---
 ## ■スクリプト利用時に「WindowsによってPCが保護されました」が出た場合
 初回利用時にWindows Defender SmartScreenが警告を表示する場合があります。これは署名されていない新しいソフトウェアに対する標準的な警告です。
 
@@ -57,6 +61,7 @@ Chall-Link「VSSDetector」を使えば、Windowsのスナップショット＝�
 
 &nbsp;
 
+---
 ## ■体験：基本的な使い方　～まずは体験してみよう。驚きの瞬間！～ 
 
 ### ■ 3分でできる感動体験 
@@ -109,6 +114,7 @@ Chall-Link「VSSDetector」を使えば、Windowsのスナップショット＝�
 
 &nbsp;
 
+---
 ## ■特徴： VSSDetectorの優れた特徴  
 ### ● 隠れたスナップショットの完全可視化
 - システムに保存されているすべてのスナップショットを自動検出
@@ -126,6 +132,7 @@ Chall-Link「VSSDetector」を使えば、Windowsのスナップショット＝�
 
 &nbsp;
 
+---
 ## ■バックアップ：バックアップ処理へ適用
 ### バックアップでVSSを使うメリット
 
@@ -143,6 +150,7 @@ VSSDetectorと、PreFAS Backupを使えば、VSS を使って数日かかるバ�
 
 &nbsp;
 
+---
 ## ■用途：PreFAS Backup の活躍シーン
 - **写真・動画管理**／貴重な記録写真、プライベートの大切な想い出の完全保護
 - **クリエイター・デザイナー**／完成作品の確実な長期保存
@@ -152,6 +160,7 @@ VSSDetectorと、PreFAS Backupを使えば、VSS を使って数日かかるバ�
 
 &nbsp;
 
+---
 ## ■注意事項
 
 ### ■ 重要な注意事項
@@ -167,6 +176,7 @@ VSSDetectorと、PreFAS Backupを使えば、VSS を使って数日かかるバ�
 
 &emsp; 
 
+---
 ##  ■広がる適用可能性
 
 Chall-Link「VSSDetector」は、様々な分野に応用可能です
@@ -197,6 +207,7 @@ Chall-Link「VSSDetector」は、様々な分野に応用可能です
 
 &emsp; 
 
+---
 ##  ■ライセンス・免責事項
 本ソフトウェアはフリーソフトウェア（MITライセンス）です。著作権はChall-Linkに帰属します。
 本ソフトウェアの使用による損害や障害について、著作者は一切の責任を負いません。  
@@ -208,7 +219,8 @@ Chall-Link「VSSDetector」は、様々な分野に応用可能です
 
 &nbsp;
 
-## タグ
+---
+## ■タグ
 VSS, スナップショット, 復元ポイント, 7zip, PowerShell, vssadmin, システム管理, windows-tools, 大容量, バックアップ  
 
 [Tags: VSS, snapshot, restore-point, 7zip, PowerShell, vssadmin, system-administration, windows-tools, large-data, backup]
