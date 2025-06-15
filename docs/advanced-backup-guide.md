@@ -275,6 +275,8 @@ set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*"
 - PreFAS Backup前に最新復元ポイントを作成  
 - パスワードを適切かつ安全に保管。紛失した場合、復元できません。
 
+&emsp; 
+
 ---
 ## ■復元ポイントスナップショットの削除
 
@@ -283,6 +285,8 @@ set SOURCE_FOLDER="\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\*"
 &emsp;（１）Windowsの検索窓で「復元ポイントの作成」を検索しアクセス  
 &emsp;（２）削除対象ドライブを選択し「構成」をクリック  
 &emsp;（３）「削除」ボタンを選択すると、スナップショットは削除されます  
+
+&emsp; 
 
 ---
 ## ■【 免責事項 】
