@@ -71,17 +71,17 @@ Windows Defender SmartScreen may display a warning when first using the software
 
 1. Right-click ChaL-VSSDetector.bat and run as administrator
 
-2. Snapshot information in your system will be automatically analyzed and displayed in the following format:
+2. Snapshot information in your system will be automatically analyzed and saved to output file:
+Analysis result file: ChaL-RESULT-VSSDetector.txt
 ```
    ────────────────────────────
-   [1] HarddiskVolumeShadowCopy3 (Drive D:)
-       Creation Time: 2024/06/06 14:30:25
-       Type: System Restore Point
-       Full Drive Path: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy3\*
-       Folder Path: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy3\(folder name)
+[1] HarddiskVolumeShadowCopy3 (Drive D:)
+    Creation Time: 2025/06/15 18:28:17
+    Type: System Restore Point
+    Full Drive Path: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy3\*
+    Folder Path: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy3\(FolderName) 
    ────────────────────────────
 ```
-> Results are also saved in the ChaL-RESULT-VSSDetector.txt file  
 > Please only use snapshots with "Type: System Restore Point" as others are created by various software
 
 &nbsp; 

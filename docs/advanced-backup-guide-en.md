@@ -99,8 +99,8 @@ Creation is complete when you see "The restore point was created successfully"
 &emsp;**(2) VSS snapshot analysis processing is executed**  
 
 &emsp;**(3) Execution Complete**  
-&emsp;&emsp;After confirming the "Script execution completed" message,  
-&emsp;&emsp;**detailed results identical to the screen display are output as an external file**, so you can close the screen  
+&emsp;&emsp;After confirming the "Script execution completed" message, you can close the screen.
+&emsp;&emsp;**All analysis results have been saved to the output file.**  
 
 &emsp; 
 
