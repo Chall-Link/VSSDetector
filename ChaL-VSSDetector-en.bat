@@ -1,4 +1,4 @@
-::
+:: 
 :: *** IMPORTANT ***
 :: This English version script should work with UTF-8 encoding and CRLF line endings.
 :: When downloading as Raw from GitHub, line endings become LF and may not work properly.
