@@ -230,9 +230,7 @@ However, we do not provide individual support or responses.
 
 ---
 ## ■Tags
-VSS, snapshot, restore-point, 7zip, PowerShell, vssadmin, system-administration, windows-tools, large-data, backup  
-
-[Tags: VSS, snapshot, restore-point, 7zip, PowerShell, vssadmin, system-administration, windows-tools, large-data, backup]
+VSS, snapshot, restore-point, 7zip, PowerShell, vssadmin, system-administration, windows-tools, large-data, backup
 
 &nbsp;
 
