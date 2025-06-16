@@ -10,7 +10,7 @@
 **License:** MIT License  
 **Type:** Free Software (Open Source)  
 
-=================================================
+=================================================  
 💡 This document uses "archive," "backup," and "compression" with similar meanings  
 💡 "Snapshot" is also referred to as "shadow copy"
 
@@ -19,12 +19,21 @@
 ---
 ## ■File Structure
 VSSDetector/  
-├── ChaL-VSSDetector.bat          # Main script (Japanese)  
-├── ChaL-VSSDetector-en.bat       # Main script (English)  
-├── README.md                     # Documentation (Japanese)  
-├── README-en.md                  # Documentation (English)  
+├── ChaL-VSSDetector-en.bat      # English version - Main script  
+├── ChaL-VSSDetector.bat         # Japanese version - Main script  
+├── README-en.md                 # English version - Documentation  
+├── README.md                    # Japanese version - Documentation  
 └── docs/  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── advanced-backup-guide.md  # Usage guide (Japanese)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── advanced-backup-guide-en.md # English version - Usage guide  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── advanced-backup-guide.md    # Japanese version - Usage guide  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── pdf/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── advanced-backup-guide-en.pdf # English version - Usage guide PDF  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── advanced-backup-guide.pdf    # Japanese version - Usage guide PDF  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── README-en.pdf                # English version - Documentation PDF  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── README.pdf                   # Japanese version - Documentation PDF  
+
+> Files with `.md` extension are Markdown files that are automatically displayed in a readable format on GitHub.  
+> If they are difficult to read locally, please use the PDF files in the `docs/pdf/` directory.
 
 &nbsp;
 
