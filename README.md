@@ -33,7 +33,7 @@ VSSDetector/
 &emsp; &emsp;&emsp; &emsp;└── README-en.pdf                # 英語版・説明書 PDF  
 
 > 拡張子 `.md` はマークダウンファイルです。GitHub上では自動的に見やすく表示されます。  
-> ＰＣ上で読みにくい場合は、`docs/pdf/` の PDF ファイルをご利用ください。
+> ローカルで読みにくい場合は、`docs/pdf/` の PDF ファイルをご利用ください。
 
 &nbsp;
 
