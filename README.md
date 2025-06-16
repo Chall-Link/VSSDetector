@@ -19,10 +19,21 @@
 ---
 ## ■ファイル構成
 VSSDetector/  
-├── ChaL-VSSDetector.bat          # メインスクリプト  
-├── README.md                     # 説明書（本ファイル）  
+├── ChaL-VSSDetector.bat         # 日本語版・メインスクリプト  
+├── ChaL-VSSDetector-en.bat      # 英語版・メインスクリプト  
+├── README.md                    # 日本語版・説明書  
+├── README-en.md                 # 英語版・説明書  
 └── docs/  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── advanced-backup-guide.md  # 活用ガイド  
+&emsp; &emsp;├── advanced-backup-guide.md    # 日本語版・活用ガイド  
+&emsp; &emsp;├── advanced-backup-guide-en.md # 英語版・活用ガイド  
+&emsp; &emsp;└── pdf/  
+&emsp; &emsp;&emsp; &emsp;├── advanced-backup-guide.pdf    # 日本語版・活用ガイド PDF  
+&emsp; &emsp;&emsp; &emsp;├── advanced-backup-guide-en.pdf # 英語版・活用ガイド PDF  
+&emsp; &emsp;&emsp; &emsp;├── README.pdf                   # 日本語版・説明書 PDF  
+&emsp; &emsp;&emsp; &emsp;└── README-en.pdf                # 英語版・説明書 PDF  
+
+> 拡張子 `.md` はマークダウンファイルです。GitHub上では自動的に見やすく表示されます。  
+> ＰＣ上で読みにくい場合は、`docs/pdf/` の PDF ファイルをご利用ください。
 
 &nbsp;
 
