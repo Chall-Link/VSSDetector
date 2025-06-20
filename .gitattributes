@@ -1,6 +1,3 @@
 # Configuration for Chall-Link projects
 *.bat text eol=crlf
 # Ensure Windows batch files use CRLF line endings
-.gitignore export-ignore
-.gitattributes export-ignore
-googlededc4883d6a39ee9.html export-ignore
