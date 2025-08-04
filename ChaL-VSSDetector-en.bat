@@ -7,7 +7,7 @@
 ::
 :: ~ VolumeShadowCopy Snapshot Path Detection Script ~
 :: ----------------------------------------------------------------
-::   VSSDetector English Version Ver.1.0.0
+::   VSSDetector English Version Ver.2.0.2
 :: ----------------------------------------------------------------
 ::   Detects accurate paths of shadow copies created by system restore points.
 ::   By specifying these paths as compression sources in 7-Zip, you can
@@ -19,7 +19,7 @@
 :: * Please run this script with administrator privileges.
 ::
 :: ▼▼▼
-:: For the purpose, effects, and features of this script, please check Readme-VSSDetector_Guide.txt
+:: For details, please refer to the included documentation.
 ::
 
 
@@ -29,7 +29,7 @@ chcp 65001 >nul 2>&1
 setlocal enabledelayedexpansion
 
 echo ===============================================
-echo VSSDetector English Version Ver.1.0.0
+echo VSSDetector English Version Ver.2.0.2
 echo ===============================================
 echo Processing snapshots... Please wait.
 echo.
@@ -63,7 +63,7 @@ echo $outputFile = ".\ChaL-RESULT-VSSDetector.txt" >> "%TEMP%\parse_shadows.ps1"
 echo try { >> "%TEMP%\parse_shadows.ps1"
 echo     # Initialize output file with header >> "%TEMP%\parse_shadows.ps1"
 echo     "===============================================" ^| Out-File -FilePath $outputFile -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
-echo     "Snapshot Detection Tool (Enhanced Version)" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
+echo     "   VSSDetector English Version Ver.2.0.2" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
 echo     "===============================================" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
 echo     "Display list of snapshots saved in the system" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
 echo     "(No changes will be made to the system)" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
@@ -154,10 +154,11 @@ echo     } else { >> "%TEMP%\parse_shadows.ps1"
 echo         '===============================================' ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
 echo         "Total $count snapshots found" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
 echo         "" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
-echo         "[Usage with PreFAS]" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
-echo         "Copy the above path format and use it in PreFAS settings." ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
-echo         "Use 'Full Drive Path' for entire drive backup" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
-echo         "Use 'Folder Path' for specific folders, replacing (FolderName) with actual folder name" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
+echo         "=== VSS Path Usage ===" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
+echo         "Copy the above path formats and paste them as backup source in your backup software" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
+echo         "[1] Full Drive Path: For specifying entire drive" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
+echo         "    * Asterisk note: 7-Zip File Manager (remove *), PreFAS Backup (keep *) - VSSDetector companion software" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
+echo         "[2] Folder Path: For specifying individual folders" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
 echo         "" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
 echo         "[CRITICAL WARNING]" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
 echo         "Do not create new restore points while 7-Zip is running!" ^| Out-File -FilePath $outputFile -Append -Encoding UTF8 >> "%TEMP%\parse_shadows.ps1"
@@ -186,6 +187,14 @@ del "%TEMP%\parse_shadows.ps1" >nul 2>&1
 :: Display results
 if %PS_EXIT_CODE% equ 0 (
     echo Processing completed successfully.
+    echo.
+    echo ===============================================
+    echo.
+    echo === VSS Path Usage ===
+    echo Copy the path formats from the result file "ChaL-RESULT-VSSDetector.txt" and paste them as backup source in your backup software
+    echo [1] Full Drive Path: For specifying entire drive
+    echo     * Asterisk note: 7-Zip File Manager ^(remove *^), PreFAS Backup ^(keep *^) - VSSDetector companion software
+    echo [2] Folder Path: For specifying individual folders
     echo.
     echo ===============================================
     echo Results have been saved to:

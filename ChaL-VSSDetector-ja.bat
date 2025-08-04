@@ -7,7 +7,7 @@
 ::
 ::　～ VolumeShadowCopy スナップショット パス取得スクリプト ～
 :: －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
-::　　VSSDetector 日本語版 Ver.1.0.0
+::　　VSSDetector 日本語版 Ver.2.0.2
 :: －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
 ::　　システムの復元ポイントなどで作成されるシャドーコピーの正確なパスを取得する。
 ::　　取得したパスを 7-Zip などで圧縮元ソースに指定する事で、ファイルの変更が起らない
@@ -19,7 +19,7 @@
 :: ※本スクリプトは管理者権限で実行してください。
 ::
 :: ▼▼▼
-:: 本スクリプトの目的・効果・特徴などは、Readme-VSSDetector_Guide.txt をご確認ください
+:: 本スクリプトの詳細は同梱のドキュメントをご確認ください。
 ::
 
 
@@ -29,7 +29,7 @@ chcp 932 >nul 2>&1
 setlocal enabledelayedexpansion
 
 echo ===============================================
-echo スナップショット確認ツール（拡張版）
+echo   VSSDetector 日本語版 Ver.2.0.2
 echo ===============================================
 echo システムに保存されたスナップショット一覧を表示
 echo （システムに変更は加えません）
@@ -74,7 +74,7 @@ echo $outputFile = ".\ChaL-RESULT-VSSDetector.txt" >> "%TEMP%\parse_shadows.ps1"
 echo try { >> "%TEMP%\parse_shadows.ps1"
 echo     # 出力ファイルにヘッダーを初期化 >> "%TEMP%\parse_shadows.ps1"
 echo     "===============================================" ^| Out-File -FilePath $outputFile -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo     "スナップショット確認ツール（拡張版）" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo     "   VSSDetector 日本語版 Ver.2.0.2" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo     "===============================================" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo     "システムに保存されたスナップショット一覧を表示" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo     "（システムに変更は加えません）" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
@@ -168,10 +168,11 @@ echo         Write-Host "合計 $count 個のスナップショットが見つかりました" >> "%
 echo         '===============================================' ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo         "合計 $count 個のスナップショットが見つかりました" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo         "" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "[PreFASでの使用方法]" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "上記のパス形式をコピーして、PreFAS設定に使用してください。" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "ドライブ全体のバックアップには「ドライブ全体指定時パス表記」を使用" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
-echo         "特定フォルダには「フォルダ指定時パス表記」を使用し、(フォルダ名)を実際のフォルダ名に置き換え" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "▼▼▼ VSSパスの活用方法 ▼▼▼" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "上記のパス形式をコピーし、バックアップソフトのバックアップソースの指定に貼付け" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "【１】ドライブ全体指定時パス表記: ＝ドライブ全体を指定する場合" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "※ 末尾 * について：7-Zip File Manager(* 不要)、PreFAS Backup(* 必要) (VSSDetector 姉妹ソフト)" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
+echo         "【２】フォルダ指定時パス表記: ＝個別フォルダを指定する場合" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo         "" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo         "[重大な警告]" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
 echo         "7-Zip実行中に新しい復元ポイントを作成しないでください！" ^| Out-File -FilePath $outputFile -Append -Encoding Default >> "%TEMP%\parse_shadows.ps1"
@@ -222,10 +223,11 @@ if %PS_EXIT_CODE% neq 0 (
 echo.
 echo ===============================================
 echo.
-echo [PreFASでの使用方法]
-echo 上記のパス形式をコピーして、PreFAS設定に使用してください。
-echo ドライブ全体のバックアップには「ドライブ全体指定時パス表記」を使用
-echo 特定フォルダには「フォルダ指定時パス表記」を使用し、(フォルダ名)を実際のフォルダ名に置き換え
+echo ▼▼▼ VSSパスの活用方法 ▼▼▼
+echo 上記のパス形式をコピーし、バックアップソフトのバックアップソースの指定に貼付け
+echo 【１】ドライブ全体指定時パス表記: ＝ドライブ全体を指定する場合
+echo ※ 末尾 * について：7-Zip File Manager(* 不要)、PreFAS Backup(* 必要) (VSSDetector 姉妹ソフト)
+echo 【２】フォルダ指定時パス表記: ＝個別フォルダを指定する場合
 echo.
 echo [重大な警告]
 echo 7-Zip実行中に新しい復元ポイントを作成しないでください！
