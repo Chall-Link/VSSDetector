@@ -4,8 +4,8 @@
 
 **🌍 English-Japanese** (英語 - 日本語) **README**
 
-- This README is structured with the English version followed by the Japanese version. If you would like to view the Japanese version, please jump to [here](#Japanese Version / 日本語版).
-- 本READMEは英語版の文章に続けて日本語版のREADMEの文章を組み合わせた構成になっています。日本語版をご覧になる場合は [こちら](#Japanese Version / 日本語版)から該当部分にジャンプしてください。
+- This README is structured with the English version followed by the Japanese version. If you would like to view the Japanese version, please jump to [here](#Japanese-Version).
+- 本READMEは英語版の文章に続けて日本語版のREADMEの文章を組み合わせた構成になっています。日本語版をご覧になる場合は [こちら](#Japanese-Version)から該当部分にジャンプしてください。
 
 ---
 
@@ -251,7 +251,7 @@ End
 
 ---
 
-## Japanese Version / 日本語版
+## Japanese-Version
 
 =================================================
 
