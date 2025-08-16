@@ -1,4 +1,9 @@
 # VSSDetector Ver.2.0.2
+
+
+![vssdetector-hero-banner](.\docs\images\vssdetector-hero-banner.gif)
+
+
 ### VSS Snapshot Universal Path Extraction Tool
 ### **VSS スナップショットパス抽出ツール**
 
