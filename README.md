@@ -71,9 +71,9 @@ With Chall-Link "VSSDetector," anyone can easily access Windows snapshots direct
 - **Recommended Software**: 7-Zip (LGPL License) required (available from [https://www.7-zip.org/](https://www.7-zip.org/))
 
 - **For using 7-Zip with VSS snapshots as backup sources to backup large-capacity drives and folders**: 
-  - VSSDetector sister software Chall-Link "PreFAS Backup"
-    Details: [https://github.com/Chall-Link/PreFAS-Backup#readme](https://github.com/Chall-Link/PreFAS-Backup#readme)
-    Download Page: [https://github.com/Chall-Link/PreFAS-Backup/releases/latest](https://github.com/Chall-Link/PreFAS-Backup/releases/latest)
+  - VSSDetector sister software Chall-Link "PreFAS Backup"  
+    Details: [https://github.com/Chall-Link/PreFAS-Backup#readme](https://github.com/Chall-Link/PreFAS-Backup#readme)  
+    Download Page: [https://github.com/Chall-Link/PreFAS-Backup/releases/latest](https://github.com/Chall-Link/PreFAS-Backup/releases/latest)  
 
 &nbsp;
 
@@ -318,9 +318,9 @@ Chall-Link「VSSDetector」を使えば、Windowsのスナップショット＝�
 - **必要条件**: PowerShell 2.0以上（Windows標準搭載）、管理者権限、VSSサービスが有効
 - **併用推奨ソフト**: 7-Zip（LGPLライセンス）が必要（[https://www.7-zip.org/](https://www.7-zip.org/) から入手）  
 - **7-ZipでVSSスナップショットをバックアップ元にして大容量ドライブ・フォルダをバックアップする場合** 
-  -  VSSDetector 姉妹ソフト Chall-Link「PreFAS Backup」
-    ＜詳細情報＞ [https://github.com/Chall-Link/PreFAS-Backup#readme](https://github.com/Chall-Link/PreFAS-Backup#readme)
-    ＜ダウンロードページ＞ [https://github.com/Chall-Link/PreFAS-Backup/releases/latest](https://github.com/Chall-Link/PreFAS-Backup/releases/latest)
+  -  VSSDetector 姉妹ソフト Chall-Link「PreFAS Backup」  
+    ＜詳細情報＞ [https://github.com/Chall-Link/PreFAS-Backup#readme](https://github.com/Chall-Link/PreFAS-Backup#readme)  
+    ＜ダウンロードページ＞ [https://github.com/Chall-Link/PreFAS-Backup/releases/latest](https://github.com/Chall-Link/PreFAS-Backup/releases/latest)  
 
 &nbsp;
 
