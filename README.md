@@ -9,8 +9,11 @@
 
 **🌍 English-Japanese** (英語 - 日本語) **README**
 
-- This README is structured with the English version followed by the Japanese version. If you would like to view the Japanese version, please jump to [here](#Japanese-Version).
-- 本READMEは英語版の文章に続けて日本語版のREADMEの文章を組み合わせた構成になっています。日本語版をご覧になる場合は [こちら](#Japanese-Version)から該当部分にジャンプしてください。
+- If you would like to view the Japanese version, please jump to ▶ [here](#Japanese-Version).  
+This README is structured with the English version followed by the Japanese version. 
+
+- **日本語版をご覧になる場合は ▶<a href="#Japanese-Version">こちら</a>からから該当部分にジャンプしてください。**  
+  本READMEは英語版の文章に続けて日本語版のREADMEの文章を組み合わせた構成になっています。
 
 ---
 
@@ -284,17 +287,18 @@ However, we do not provide individual support or responses.
 VSS, snapshot, restore-point, 7zip, PowerShell, vssadmin, system-administration, windows-tools, large-data, backup
 
 &nbsp;
-
-End
+&nbsp;
+&nbsp;
 
 ---
 
-## Japanese-Version
-
+<h2 id="Japanese-Version">Japanese Version</h2>
 =================================================
 
-# Chall-Link「VSSDetector」 - VSS スナップショット 汎用パス取得ツール  
-## 日本語版 Ver.2.0.2  
+# Chall-Link「VSSDetector」 - VSS スナップショット 汎用パス取得ツール
+
+## 日本語版 Ver.2.0.2
+
 ## Windowsの隠れた機能を誰でも使えるように機能解放  
 ## 先進的 VSS活用ユーティリティ  
 
