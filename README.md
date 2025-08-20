@@ -9,7 +9,7 @@
 
 **🌍 English-Japanese** (英語 - 日本語) **README**
 
-- If you would like to view the Japanese version, please jump to ▶ [here](#Japanese-Version).  
+- If you would like to view the Japanese version, please jump to ▶ <a href="#Japanese-Version">here</a>.  
 This README is structured with the English version followed by the Japanese version. 
 
 - **日本語版をご覧になる場合は ▶<a href="#Japanese-Version">こちら</a>からから該当部分にジャンプしてください。**  
