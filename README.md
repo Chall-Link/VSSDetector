@@ -35,6 +35,42 @@
 &emsp; 
 
 ---
+## ■Overview: Revolutionary Breakthrough - The Secret Location Hidden in Your Windows
+
+With Chall-Link "VSSDetector," anyone can easily access Windows snapshots directly with software like 7-zip. These snapshots represent "static (unchanging) drives/folders/files at any point in the past." Previously, this functionality was mainly accessible only through Windows itself and commercial software.
+
+&nbsp;
+
+---
+## Please Read First
+
+When running this script for the first time, Windows security features may display warning messages. This is a standard confirmation that Windows performs for new files downloaded from the internet, and it does not mean the script has been determined to be dangerous. Please be assured that such warnings may appear during initial execution of any safe file.
+
+**About Script Safety**
+This program is an open-source script in text format, and anyone can verify its contents.
+It has been confirmed safe by ESET security software and internet virus detection services (using 61 virus detection engines) as of July 30, 2025.
+
+After reviewing the warning content and confirming the script's safety, please follow the steps below to execute:
+
+**Execution Steps After Warning Confirmation**
+
+**Case 1**: When "Windows protected your PC" is displayed
+
+1. Click "More info" in the warning screen.
+2. Then click the "Run anyway" button.
+
+*Once you execute using these steps, this warning screen will not appear again.
+
+**Case 2**: When "Publisher could not be verified. Do you want to run this software?" is displayed
+
+1. Uncheck "Always ask before opening this file" (W).
+2. Click the "Run" button.
+
+*If the Run button does not respond immediately, please wait a moment and click again.
+
+&emsp; 
+
+---
 ## ■File Structure
 VSSDetector/  
 ├── ChaL-VSSDetector-en.bat      # English version - Main script  
@@ -56,13 +92,7 @@ VSSDetector/
 &nbsp;
 
 ---
-## ■Overview: Revolutionary Breakthrough - The Secret Location Hidden in Your Windows
 
-With Chall-Link "VSSDetector," anyone can easily access Windows snapshots directly with software like 7-zip. These snapshots represent "static (unchanging) drives/folders/files at any point in the past." Previously, this functionality was mainly accessible only through Windows itself and commercial software.
-
-&nbsp;
-
----
 ## ■System Requirements
 - **Download Link**: Please download "Source code (zip)" from [https://github.com/Chall-Link/VSSDetector/releases/latest](https://github.com/Chall-Link/VSSDetector/releases/latest). Please note that downloading via GitHub Raw will result in LF line endings and the script will not work properly.
 - **Character Encoding & Line Endings**: When using the Japanese version (ChaL-VSSDetector-ja.bat), this script requires Shift-JIS encoding and CRLF line endings to function properly on Japanese Windows systems.
@@ -84,14 +114,6 @@ With Chall-Link "VSSDetector," anyone can easily access Windows snapshots direct
 &nbsp;
 
 ---
-## ■If "Windows protected your PC" appears when using the script
-Windows Defender SmartScreen may display a warning when first using the software. This is a standard warning for unsigned new software.
-
-**Safety Information:**
-- ESET virus scan verified (locally confirmed)
-- Completely open source (content verifiable)
-
-**How to run:** Click "More info" → "Run anyway" on the warning screen
 
 &nbsp;
 
@@ -288,6 +310,41 @@ End
 &emsp; 
 
 ---
+## ■概要：画期的なブレークスルー：あなたのWindowsに眠る秘密の場所
+
+Chall-Link「VSSDetector」を使えば、Windowsのスナップショット＝「過去の任意の時点での静的な（変化しない）ドライブ／フォルダ／ファイル」に7-zipなどのソフトウェアから誰でも簡単に直接アクセスできるようになります。
+従来、この機能は主にWindowsおよび市販ソフト経由などでしか使えませんでした。  
+
+&nbsp;
+
+---
+## 【最初にご確認ください】
+
+このスクリプトを初めて実行する際に、Windowsのセキュリティ機能が警告を表示する場合があります。これは、インターネットからダウンロードされた新しいファイルに対してWindowsが標準的に行う確認であり、スクリプトが危険なものと判断されたわけではありません。どんなに安全なファイルでも、初回実行時にはこのような警告が表示されることがありますのでご安心ください。
+
+**＜本スクリプトの安全性について＞**
+本プログラムはテキスト形式のオープンソーススクリプトであり、誰でも内容を確認できます。
+セキュリティソフトESETおよびインターネット上のウイルス検知サービス（61種類のウイルス検知エンジンを利用）にて、無害であることが確認済みです（2025年7月30日確認）。
+
+警告内容とスクリプトの安全性をご確認いただいた上で、以下の手順で実行してください。
+
+**＜警告確認後の実行手順＞**
+
+**ケース１**：『WindowsによってPCが保護されました』と表示された場合
+
+1.  警告画面内の「詳細情報」をクリックしてください。
+2.  続けて「実行」ボタンをクリックしてください。
+※ 一度この手順で実行すると、以降この警告画面は表示されなくなります。
+
+**ケース２**：『発行元を確認できませんでした。このソフトウェアを実行しますか？』と表示された場合
+
+1.  「このファイルを開く前に常に確認する(W)」のチェックを外してください。
+2.  「実行」ボタンをクリックしてください。
+    ※ 実行ボタンをクリックしても一時的に反応がない場合があります。その際は少し待ってから再度クリックしてください。
+
+&emsp; 
+
+---
 ## ■ファイル構成
 VSSDetector/  
 ├── ChaL-VSSDetector-ja.bat         # 日本語版・メインスクリプト  
@@ -309,14 +366,6 @@ VSSDetector/
 &nbsp;
 
 ---
-## ■概要：画期的なブレークスルー：あなたのWindowsに眠る秘密の場所
-
-Chall-Link「VSSDetector」を使えば、Windowsのスナップショット＝「過去の任意の時点での静的な（変化しない）ドライブ／フォルダ／ファイル」に7-zipなどのソフトウェアから誰でも簡単に直接アクセスできるようになります。
-従来、この機能は主にWindowsおよび市販ソフト経由などでしか使えませんでした。  
-
-&nbsp;
-
----
 ## ■ 動作環境
 - **ダウンロードリンク**:  [https://github.com/Chall-Link/VSSDetector/releases/latest](https://github.com/Chall-Link/VSSDetector/releases/latest) 掲載の「Source code (zip)」をダウンロードしてください。GitHubの Rawダウンロード でダウンロードすると改行コードがLFになり動作しませんのでご注意ください。 
 - **文字コード・改行コード**: 本スクリプトは日本語対応のWindowsスクリプトで、Shift-JISエンコーディングとCRLF改行コードでなければ正常に動作しません。
@@ -332,22 +381,6 @@ Chall-Link「VSSDetector」を使えば、Windowsのスナップショット＝�
   -  VSSDetector 姉妹ソフト Chall-Link「PreFAS Backup」  
     ＜詳細情報＞ [https://github.com/Chall-Link/PreFAS-Backup#readme](https://github.com/Chall-Link/PreFAS-Backup#readme)  
     ＜ダウンロードページ＞ [https://github.com/Chall-Link/PreFAS-Backup/releases/latest](https://github.com/Chall-Link/PreFAS-Backup/releases/latest)  
-
-&nbsp;
-
----
-## ■スクリプト利用時に「WindowsによってPCが保護されました」が出た場合
-初回利用時にWindows Defender SmartScreenが警告を表示する場合があります。これは署名されていない新しいソフトウェアに対する標準的な警告です。
-
-**安全性について：**
-- ESETウイルススキャン（ローカル確認済み）
-- 完全オープンソース（内容確認可能）
-
-**実行方法：** 警告画面で「詳細情報」→「実行」をクリック
-
-&nbsp;
-
-**👉 `＊＊このスクリプトはVSS機能を誰でも使えるように解放することを可能にします！＊＊`**
 
 &nbsp;
 
